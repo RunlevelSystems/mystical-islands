@@ -9,6 +9,10 @@ Assets/**
 # Allow hidden .gitkeep file if needed
 !Assets/_git/.gitkeep
 
+# Backup files (.bak are created by the pre-commit hook)
+*.bak
+Assets/**/*.bak
+
 # Common Unity files to ignore (if anything escapes to Assets root)
 /[Ll]ibrary/
 /[Tt]emp/
