@@ -23,11 +23,12 @@ This repository uses a selective tracking system to manage a large game project 
 
 When you commit, a **pre-commit hook** automatically:
 1. Detects which files you've staged for commit
-2. **Copies them to `Assets/_git/`** preserving folder structure
-3. Stages the copies automatically
-4. Commits everything in one shot
+2. **Moves them to `Assets/_git/`** preserving folder structure
+3. **Backs up the original** files as `.bak` (so there's no duplication)
+4. Stages the moved files automatically
+5. Commits everything in one shot
 
-**Result:** You edit files normally, commit normally, and only the edits get tracked.
+**Result:** You edit files normally, commit, and the hook moves them to `_git/` while keeping a backup of the original as `.bak`.
 
 ---
 
@@ -48,17 +49,18 @@ vim Assets/Atavism\ demo/OtherPackages/SFBayStudios/SFB\ Demo\ Scripts/SFB_Audio
 git add Assets/Atavism\ demo/OtherPackages/SFBayStudios/SFB\ Demo\ Scripts/SFB_AudioManager.cs
 ```
 
-### 3. Commit (Hook Does the Magic)
+### 3. Commit (Hook Moves the File)
 
 ```bash
 git commit -m "Fixed audio manager Atavism namespace issue"
 ```
 
 **What happens automatically:**
-- ✓ File copied to: `Assets/_git/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs`
+- ✓ File **moved to**: `Assets/_git/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs`
+- ✓ Original backed up as: `Assets/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs.bak`
 - ✓ Folder structure **preserved**
 - ✓ `.meta` file also tracked (if it exists)
-- ✓ Both original and copy are staged
+- ✓ Moved file staged automatically
 - ✓ Commit created with all files
 
 ### 4. Push to GitHub
@@ -74,29 +76,31 @@ git push origin master
 ### ✓ DO (Follow These)
 
 - **Edit files in their normal location** (e.g., `Assets/Scripts/MyScript.cs`)
-- **Commit from their normal location** - the hook handles copying
+- **Commit from their normal location** - the hook handles moving
 - **Keep the full path when files end up in `_git/`** (this is automatic)
 - **Commit message should describe the change**, not the file location
+- **Delete `.bak` backup files if you don't need them** (they're just backups)
 
 ### ✗ DON'T (Avoid These)
 
-- **Don't manually copy files to `_git/`** - the hook does this
-- **Don't edit files in the `_git/` folder** directly - edit the originals
-- **Don't forget to add/commit your changes** - just doing `git add Assets/yourfile.cs` and `git commit`
+- **Don't manually move files to `_git/`** - the hook does this
+- **Don't edit files in the `_git/` folder** directly - edit the originals in Assets/
+- **Don't commit the `.bak` files** - they're automatically ignored by git
+- **Don't forget to add/commit your changes** - just do `git add Assets/yourfile.cs` and `git commit`
 
 ---
 
 ## File Path Examples
 
-Here's how folder structure is preserved:
+Here's how files are moved and backed up:
 
-| Original Location | After Commit (in _git/) |
-|---|---|
-| `Assets/Scripts/Player.cs` | `Assets/_git/Scripts/Player.cs` |
-| `Assets/Scenes/MainScene.meta` | `Assets/_git/Scenes/MainScene.meta` |
-| `Assets/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs` | `Assets/_git/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs` |
+| Original Location | After Commit (moved to _git/) | Backup Created |
+|---|---|---|
+| `Assets/Scripts/Player.cs` | `Assets/_git/Scripts/Player.cs` | `Assets/Scripts/Player.cs.bak` |
+| `Assets/Scenes/MainScene.meta` | `Assets/_git/Scenes/MainScene.meta` | `Assets/Scenes/MainScene.meta.bak` |
+| `Assets/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs` | `Assets/_git/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs` | `Assets/Atavism demo/OtherPackages/SFBayStudios/SFB Demo Scripts/SFB_AudioManager.cs.bak` |
 
-**The full path is ALWAYS preserved** - this makes it crystal clear what was changed.
+**The full path is ALWAYS preserved** - this makes it crystal clear what was changed. The `.bak` files are backups (ignored by git) and can be deleted if you don't need them.
 
 ---
 
@@ -162,18 +166,30 @@ cd mystical-islands
 - Check if the hook is executable: `chmod +x .git/hooks/pre-commit`
 - Verify git is tracking your file correctly: `git status`
 
+### "File was moved but I still have the .bak backup"
+- That's normal! The hook creates a `.bak` backup so you have a fallback
+- `.bak` files are automatically ignored by git (not tracked)
+- Delete them manually if you don't need them: `rm Assets/myfile.cs.bak`
+
+### "I accidentally edited the .bak file instead of the _git file"
+- Edit the `.bak` file to get the content back
+- Copy it to the `_git/` location
+- Delete the `.bak` when done
+
+### "I need to restore a file from the backup"
+- `.bak` files are kept in the original location
+- Copy it back to the original name if needed: `cp Assets/file.cs.bak Assets/file.cs`
+
 ### "File isn't showing up in _git/"
 - Make sure you used `git add` and `git commit`
 - The hook only runs on `git commit`, not on `git add`
-
-### "I edited _git/ instead of the original"
-- Both will get synced, but edit the original `Assets/` file instead
-- Delete the one in `_git/` and re-commit
 
 ### "I need to sync the full Assets folder to _git/"
 ```bash
 # Manual one-time copy of everything (if needed)
 cp -r Assets/* Assets/_git/
+# Then rename originals to .bak to avoid duplication
+find Assets -type f -not -path "Assets/_git/*" -exec mv {} {}.bak \;
 git add Assets/_git/
 git commit -m "Synced full assets to tracking folder"
 ```
