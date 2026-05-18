@@ -1,0 +1,43 @@
+# Ignore everything in Assets folder by default
+Assets/**
+
+# But whitelist the _git folder (where we track edited files)
+!Assets/_git/
+!Assets/_git/**
+!Assets/_git/**/*.meta
+
+# Allow hidden .gitkeep file if needed
+!Assets/_git/.gitkeep
+
+# Common Unity files to ignore (if anything escapes to Assets root)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.sln
+*.csproj
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+npm-debug.log
+
+# Python (if used)
+__pycache__/
+*.py[cod]
