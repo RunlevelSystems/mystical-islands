@@ -17,6 +17,15 @@ This repository uses a selective tracking system to manage a large game project 
 └── README.md                  # This file
 ```
 
+## Third-Party Packages Installed
+
+This project currently tracks the following third-party packages/assets:
+
+- Atavism X.9
+- Synty Fantasy Kingdom
+- Synty Dungean Pack
+- Synty Fantasy Characters
+
 ## How It Works
 
 ### The Git Hook (Automatic)
