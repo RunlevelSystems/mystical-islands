@@ -1609,7 +1609,7 @@ Judicator crest, obsidian blade shard, sun relic.
 Major tomb boss with mythic presentation.
 
 ## Regional Placement
-Primary to Sunscar royal necropolis and elite vaults.
+Primary in Sunscar royal necropolis and elite vaults.
 
 ## Lore Notes
 Priests insist true names must never be spoken before battle.
