@@ -60,7 +60,7 @@ Use this index to cross-reference island ecosystems with full species entries be
 ## Expanded Regional Ecosystems
 
 ### [Aetherfall Isle](islands.md#aetherfall-isle)
-- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Warrior Male](#creature-goblin-warrior-male), [Goblin Warrior Female](#creature-goblin-warrior-female), [Skeleton Soldier](#creature-skeleton-soldier), [Skeleton Slave](#creature-skeleton-slave), [Fish](#creature-fish), [Slime](#creature-slime), [Giant Rats](#creature-giant-rats)
+- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Warrior Male](#creature-goblin-warrior-male), [Goblin Warrior Female](#creature-goblin-warrior-female), [Demon Skeleton](#creature-demon-skeleton), [Skeleton Soldier](#creature-skeleton-soldier), [Skeleton Slave](#creature-skeleton-slave), [Fish](#creature-fish), [Slime](#creature-slime), [Giant Rats](#creature-giant-rats)
 
 ### [Crownspire Isle](islands.md#crownspire-isle)
 - [Inquisitor](#creature-inquisitor), [Knights](#creature-knights), [Ghost](#creature-ghost), [Undead Knight](#creature-undead-knight), [Wraith](#creature-wraith), [Skeleton Knight](#creature-skeleton-knight)
@@ -72,22 +72,22 @@ Use this index to cross-reference island ecosystems with full species entries be
 - [Forest Witch](#creature-forest-witch), [Forest Guardian](#creature-forest-guardian), [Dark Elf](#creature-dark-elf), [Spirit Creatures](#creature-spirit-creatures), [Treant](#creature-treant), [Plant Monster](#creature-plant-monster), [Mushroom Monster](#creature-mushroom-monster)
 
 ### [Sunscar Isle](islands.md#sunscar-isle)
-- [Mummy](#creature-mummy), [Anubis](#creature-anubis), [Ancient Warrior](#creature-ancient-warrior), [Ancient Queen](#creature-ancient-queen), [Medusa](#creature-medusa), [Serpent Warrior](#creature-serpent-warrior), [Tomb Guardians](#creature-tomb-guardians), [Spirit Priests](#creature-spirit-priests)
+- [Mummy](#creature-mummy), [Anubis](#creature-anubis), [Ancient Warrior](#creature-ancient-warrior), [Ancient Queen](#creature-ancient-queen), [Medusa](#creature-medusa), [Serpent Warrior](#creature-serpent-warrior), [Tomb Guardians](#creature-tomb-guardians), [Spirit Priests](#creature-spirit-priests), [Evil God](#creature-evil-god)
 
 ### [Blackreef Isle](islands.md#blackreef-isle)
-- [Fish](#creature-fish), [Shark](#creature-shark), [Demon Dog](#creature-demon-dog), [Troll](#creature-troll), [Mimics & Chests & Loot](#creature-mimics-chests-loot)
+- [Fish](#creature-fish), [Shark](#creature-shark), [Demon Dog](#creature-demon-dog), [Troll](#creature-troll), [Red Demon](#creature-red-demon), [Mimics & Chests & Loot](#creature-mimics-chests-loot)
 
 ### [Stoneclaw Isle](islands.md#stoneclaw-isle)
-- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Shaman](#creature-goblin-shaman), [Goblin Warchief](#creature-goblin-warchief), [Big Orc](#creature-big-orc), [Fort Golem](#creature-fort-golem), [Rock Golem](#creature-rock-golem), [Barbarian](#creature-barbarian)
+- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Shaman](#creature-goblin-shaman), [Goblin Warchief](#creature-goblin-warchief), [Big Orc](#creature-big-orc), [Skeleton Slave](#creature-skeleton-slave), [Fort Golem](#creature-fort-golem), [Rock Golem](#creature-rock-golem), [Barbarian](#creature-barbarian), [Slayer](#creature-slayer)
 
 ### [Veilreach Isle](islands.md#veilreach-isle)
-- [Demon Skeleton](#creature-demon-skeleton), [Corpse Walker](#creature-corpse-walker), [Plague Undead](#creature-plague-undead), [Plague Lord](#creature-plague-lord), [Necromancer](#creature-necromancer), [Spirit Demon](#creature-spirit-demon), [Red Demon](#creature-red-demon), [Big Demon](#creature-big-demon), [Evil God](#creature-evil-god), [Slayer](#creature-slayer), [Mutant Guy](#creature-mutant-guy), [Tormented Soul](#creature-tormented-soul), [Wraith](#creature-wraith)
+- [Demon Skeleton](#creature-demon-skeleton), [Corpse Walker](#creature-corpse-walker), [Plague Undead](#creature-plague-undead), [Plague Lord](#creature-plague-lord), [Necromancer](#creature-necromancer), [Spirit Priests](#creature-spirit-priests), [Spirit Demon](#creature-spirit-demon), [Red Demon](#creature-red-demon), [Big Demon](#creature-big-demon), [Evil God](#creature-evil-god), [Slayer](#creature-slayer), [Mutant Guy](#creature-mutant-guy), [Tormented Soul](#creature-tormented-soul), [Wraith](#creature-wraith)
 
 ### [Mirefen Isle](islands.md#mirefen-isle)
-- [Forest Witch](#creature-forest-witch), [Spirit Creatures](#creature-spirit-creatures), [Plague Undead](#creature-plague-undead), [Corpse Walker](#creature-corpse-walker), [Fish](#creature-fish), [Shark](#creature-shark), [Troll](#creature-troll), [Mushroom Monster](#creature-mushroom-monster), [Plant Monster](#creature-plant-monster)
+- [Forest Witch](#creature-forest-witch), [Spirit Creatures](#creature-spirit-creatures), [Mummy](#creature-mummy), [Plague Undead](#creature-plague-undead), [Corpse Walker](#creature-corpse-walker), [Fish](#creature-fish), [Shark](#creature-shark), [Troll](#creature-troll), [Mushroom Monster](#creature-mushroom-monster), [Plant Monster](#creature-plant-monster)
 
 ### [Galestone Isle](islands.md#galestone-isle)
-- [Rock Golem](#creature-rock-golem), [Fort Golem](#creature-fort-golem), [Barbarian Giant](#creature-barbarian-giant), [Dwarf](#creature-dwarf), [Mystic](#creature-mystic), [Knights](#creature-knights), [Shark](#creature-shark)
+- [Rock Golem](#creature-rock-golem), [Fort Golem](#creature-fort-golem), [Barbarian Giant](#creature-barbarian-giant), [Dark Elf](#creature-dark-elf), [Dwarf](#creature-dwarf), [Mystic](#creature-mystic), [Knights](#creature-knights), [Shark](#creature-shark)
 
 ---
 
@@ -4815,7 +4815,7 @@ Their covens guard forbidden druid ruins from outsiders.
 Ancient Nature Sentinel
 
 ## Threat Level
-Elite
+High
 
 ## Habitat Regions
 [Sylvanreach Isle](islands.md#sylvanreach-isle)
@@ -4974,7 +4974,7 @@ They are the forest’s immune system against corruption.
 Ancient War Machine
 
 ## Threat Level
-Elite
+High
 
 ## Habitat Regions
 [Frostfang Isle](islands.md#frostfang-isle), [Galestone Isle](islands.md#galestone-isle)
@@ -5027,7 +5027,7 @@ Originally built to guard trade forts through endless winters.
 Arcane Construct
 
 ## Threat Level
-Elite
+High
 
 ## Habitat Regions
 [Frostfang Isle](islands.md#frostfang-isle), [Veilreach Isle](islands.md#veilreach-isle)
@@ -5133,7 +5133,7 @@ Dormant units awaken when old war drums are sounded.
 Stone Construct
 
 ## Threat Level
-Elite
+High
 
 ## Habitat Regions
 [Stoneclaw Isle](islands.md#stoneclaw-isle), [Galestone Isle](islands.md#galestone-isle)
