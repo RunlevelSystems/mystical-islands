@@ -38,6 +38,59 @@ Use this index to cross-reference island ecosystems with full species entries be
 
 ---
 
+## Creature Family Groups
+
+- **Corruption Legions**: [Demon Skeleton](#creature-demon-skeleton), [Skeleton Knight](#creature-skeleton-knight), [Skeleton Soldier](#creature-skeleton-soldier), [Skeleton Slave](#creature-skeleton-slave), [Corpse Walker](#creature-corpse-walker), [Plague Undead](#creature-plague-undead), [Undead Knight](#creature-undead-knight)
+- **Veilreach Entities**: [Ghost](#creature-ghost), [Tormented Soul](#creature-tormented-soul), [Wraith](#creature-wraith), [Necromancer](#creature-necromancer), [Plague Lord](#creature-plague-lord), [Spirit Demon](#creature-spirit-demon), [Red Demon](#creature-red-demon), [Big Demon](#creature-big-demon), [Evil God](#creature-evil-god), [Slayer](#creature-slayer), [Mutant Guy](#creature-mutant-guy)
+- **Goblin Tribes & Orc Warbands**: [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Warrior Male](#creature-goblin-warrior-male), [Goblin Warrior Female](#creature-goblin-warrior-female), [Goblin Shaman](#creature-goblin-shaman), [Goblin Warchief](#creature-goblin-warchief), [Big Orc](#creature-big-orc)
+- **Sunscar Dynasties**: [Ancient Queen](#creature-ancient-queen), [Ancient Warrior](#creature-ancient-warrior), [Mummy](#creature-mummy), [Tomb Guardians](#creature-tomb-guardians), [Spirit Priests](#creature-spirit-priests), [Anubis](#creature-anubis), [Medusa](#creature-medusa), [Serpent Warrior](#creature-serpent-warrior)
+- **Wildwood & Mire Orders**: [Forest Witch](#creature-forest-witch), [Forest Guardian](#creature-forest-guardian), [Dark Elf](#creature-dark-elf), [Spirit Creatures](#creature-spirit-creatures), [Treant](#creature-treant), [Plant Monster](#creature-plant-monster), [Mushroom Monster](#creature-mushroom-monster)
+- **Construct Hosts & Giant Kin**: [Mechanical Golem](#creature-mechanical-golem), [Elemental Golem](#creature-elemental-golem), [Fort Golem](#creature-fort-golem), [Rock Golem](#creature-rock-golem), [Barbarian Giant](#creature-barbarian-giant), [Colossus](#creature-colossus), [Behemoth](#creature-behemoth)
+- **Rogue Faction Humanoids**: [Apothecary](#creature-apothecary), [Barbarian](#creature-barbarian), [Dwarf](#creature-dwarf), [Mystic](#creature-mystic), [Knights](#creature-knights), [Inquisitor](#creature-inquisitor)
+- **Sea & Frontier Wildlife**: [Fish](#creature-fish), [Shark](#creature-shark), [Demon Dog](#creature-demon-dog), [Troll](#creature-troll)
+
+## Creature Threat Tiers
+
+- **Ambient Wildlife**: [Fish](#creature-fish), [Deer](#creature-deer), [Ravens](#creature-ravens), [Giant Rats](#creature-giant-rats), [Birdy](#creature-birdy)
+- **Standard Hostiles**: [Goblin](#creature-goblin), [Skeleton Warrior](#creature-skeleton-warrior), [Troll](#creature-troll), [Slime](#creature-slime), [Spiders](#creature-spiders), [Goblin Warrior Male](#creature-goblin-warrior-male), [Goblin Warrior Female](#creature-goblin-warrior-female), [Skeleton Soldier](#creature-skeleton-soldier)
+- **Elite Creatures**: [Minotaur](#creature-minotaur), [Golem](#creature-golem), [Forest Guardian](#creature-forest-guardian), [Demon Dog](#creature-demon-dog), [Medusa](#creature-medusa), [Rock Golem](#creature-rock-golem)
+- **Dungeon Bosses**: [Ancient Queen](#creature-ancient-queen), [Big Demon](#creature-big-demon), [Colossus](#creature-colossus), [Plague Lord](#creature-plague-lord), [Necromancer](#creature-necromancer)
+- **World Bosses**: [Dragons](#creature-dragons), [Dragon Skeleton](#creature-dragon-skeleton), [Behemoth](#creature-behemoth), [Evil God](#creature-evil-god), [Mutant Guy](#creature-mutant-guy)
+
+## Expanded Regional Ecosystems
+
+### [Aetherfall Isle](islands.md#aetherfall-isle)
+- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Warrior Male](#creature-goblin-warrior-male), [Goblin Warrior Female](#creature-goblin-warrior-female), [Skeleton Soldier](#creature-skeleton-soldier), [Skeleton Slave](#creature-skeleton-slave), [Fish](#creature-fish), [Slime](#creature-slime), [Giant Rats](#creature-giant-rats)
+
+### [Crownspire Isle](islands.md#crownspire-isle)
+- [Inquisitor](#creature-inquisitor), [Knights](#creature-knights), [Ghost](#creature-ghost), [Undead Knight](#creature-undead-knight), [Wraith](#creature-wraith), [Skeleton Knight](#creature-skeleton-knight)
+
+### [Frostfang Isle](islands.md#frostfang-isle)
+- [Troll](#creature-troll), [Mechanical Golem](#creature-mechanical-golem), [Elemental Golem](#creature-elemental-golem), [Barbarian Giant](#creature-barbarian-giant), [Colossus](#creature-colossus), [Behemoth](#creature-behemoth)
+
+### [Sylvanreach Isle](islands.md#sylvanreach-isle)
+- [Forest Witch](#creature-forest-witch), [Forest Guardian](#creature-forest-guardian), [Dark Elf](#creature-dark-elf), [Spirit Creatures](#creature-spirit-creatures), [Treant](#creature-treant), [Plant Monster](#creature-plant-monster), [Mushroom Monster](#creature-mushroom-monster)
+
+### [Sunscar Isle](islands.md#sunscar-isle)
+- [Mummy](#creature-mummy), [Anubis](#creature-anubis), [Ancient Warrior](#creature-ancient-warrior), [Ancient Queen](#creature-ancient-queen), [Medusa](#creature-medusa), [Serpent Warrior](#creature-serpent-warrior), [Tomb Guardians](#creature-tomb-guardians), [Spirit Priests](#creature-spirit-priests)
+
+### [Blackreef Isle](islands.md#blackreef-isle)
+- [Fish](#creature-fish), [Shark](#creature-shark), [Demon Dog](#creature-demon-dog), [Troll](#creature-troll), [Mimics & Chests & Loot](#creature-mimics-chests-loot)
+
+### [Stoneclaw Isle](islands.md#stoneclaw-isle)
+- [Goblin Male](#creature-goblin-male), [Goblin Female](#creature-goblin-female), [Goblin Shaman](#creature-goblin-shaman), [Goblin Warchief](#creature-goblin-warchief), [Big Orc](#creature-big-orc), [Fort Golem](#creature-fort-golem), [Rock Golem](#creature-rock-golem), [Barbarian](#creature-barbarian)
+
+### [Veilreach Isle](islands.md#veilreach-isle)
+- [Demon Skeleton](#creature-demon-skeleton), [Corpse Walker](#creature-corpse-walker), [Plague Undead](#creature-plague-undead), [Plague Lord](#creature-plague-lord), [Necromancer](#creature-necromancer), [Spirit Demon](#creature-spirit-demon), [Red Demon](#creature-red-demon), [Big Demon](#creature-big-demon), [Evil God](#creature-evil-god), [Slayer](#creature-slayer), [Mutant Guy](#creature-mutant-guy), [Tormented Soul](#creature-tormented-soul), [Wraith](#creature-wraith)
+
+### [Mirefen Isle](islands.md#mirefen-isle)
+- [Forest Witch](#creature-forest-witch), [Spirit Creatures](#creature-spirit-creatures), [Plague Undead](#creature-plague-undead), [Corpse Walker](#creature-corpse-walker), [Fish](#creature-fish), [Shark](#creature-shark), [Troll](#creature-troll), [Mushroom Monster](#creature-mushroom-monster), [Plant Monster](#creature-plant-monster)
+
+### [Galestone Isle](islands.md#galestone-isle)
+- [Rock Golem](#creature-rock-golem), [Fort Golem](#creature-fort-golem), [Barbarian Giant](#creature-barbarian-giant), [Dwarf](#creature-dwarf), [Mystic](#creature-mystic), [Knights](#creature-knights), [Shark](#creature-shark)
+
+---
+
 <a id="creature-birdy"></a>
 # Birdy
 
@@ -3056,5 +3109,2602 @@ Children's tales call them the marsh ferryman's tax collectors.
 - Boss
 - Elemental
 - Diseased
+
+---
+
+<a id="creature-demon-skeleton"></a>
+# Demon Skeleton
+
+## Creature Type
+Corrupted Undead
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Undead bones fused with infernal residue from reactor fallout pits.
+
+## Combat Style
+Aggressive melee pressure with corruption burst detonations.
+
+## Behavior
+Marches in disciplined files near failed containment vaults.
+
+## Abilities
+Hellfire blade, bone spike throw, corruption pulse.
+
+## Weaknesses
+Holy damage and blunt strikes shatter unstable joints.
+
+## Loot & Resources
+Cursed marrow, demon bone shards, reactor ash.
+
+## Encounter Design
+Frontline undead in corruption dungeons and warzone patrols.
+
+## Regional Placement
+Primary in Veilreach reactor trenches; rare spillover near Aetherfall ruins.
+
+## Lore Notes
+Created when skeleton armies were reanimated inside dimensional breach zones.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-skeleton-knight"></a>
+# Skeleton Knight
+
+## Creature Type
+Undead Heavy Infantry
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Crownspire Isle](islands.md#crownspire-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Armored revenant cavalry retainers still bound to dead oaths.
+
+## Combat Style
+Shielded advance with disciplined sword combos.
+
+## Behavior
+Guards corridor chokepoints and ruined keeps.
+
+## Abilities
+Shield wall, lunging thrust, war-horn taunt.
+
+## Weaknesses
+Armor cracks under strike chains and radiant effects.
+
+## Loot & Resources
+Ancient plate fragments, rusted insignia, soul dust.
+
+## Encounter Design
+Anchor unit for undead formations and gate defenses.
+
+## Regional Placement
+Primary in Crownspire catacombs and Veilreach fortress halls.
+
+## Lore Notes
+Once royal guardians, now puppeted by necrotic command rites.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-skeleton-soldier"></a>
+# Skeleton Soldier
+
+## Creature Type
+Undead Infantry
+
+## Threat Level
+Low
+
+## Habitat Regions
+[Aetherfall Isle](islands.md#aetherfall-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Mass-produced undead infantry from forgotten battlefield graves.
+
+## Combat Style
+Simple melee rushes in groups.
+
+## Behavior
+Patrols roads, graveyards, and collapsed trenches.
+
+## Abilities
+Rusty cleave, bone jab, rally cry.
+
+## Weaknesses
+Weak alone and vulnerable to crowd control.
+
+## Loot & Resources
+Bone dust, cracked blade, old insignia.
+
+## Encounter Design
+Bread-and-butter undead swarms for open-field encounters.
+
+## Regional Placement
+Primary in Aetherfall grave roads; reinforcement waves in Veilreach.
+
+## Lore Notes
+Reactor energy lets old battlefield dead rise repeatedly.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-skeleton-slave"></a>
+# Skeleton Slave
+
+## Creature Type
+Undead Laborer
+
+## Threat Level
+Low
+
+## Habitat Regions
+[Aetherfall Isle](islands.md#aetherfall-isle), [Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Collapsed worker skeletons still chained to mine routes and quarries.
+
+## Combat Style
+Desperate scrabbling strikes and tool swings.
+
+## Behavior
+Lurks near mine shafts and collapsed dig sites.
+
+## Abilities
+Pickaxe swipe, chain lash, panic rush.
+
+## Weaknesses
+Poor defenses and brittle bones.
+
+## Loot & Resources
+Old shackles, chipped tools, trace ore.
+
+## Encounter Design
+Ambient hostile pressure in mines and slave pits.
+
+## Regional Placement
+Primary in Stoneclaw abandoned mines; secondary in Aetherfall ruins.
+
+## Lore Notes
+Raised by war-era overseers to continue endless excavation.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-ghost"></a>
+# Ghost
+
+## Creature Type
+Spectral Undead
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Crownspire Isle](islands.md#crownspire-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Intangible spirits drifting between collapsed chapels and towers.
+
+## Combat Style
+Phase attacks that ignore terrain.
+
+## Behavior
+Haunts quiet corridors and reacts to torchlight.
+
+## Abilities
+Phase strike, fear wail, chill aura.
+
+## Weaknesses
+Light wards and spirit traps force materialization.
+
+## Loot & Resources
+Ectoplasm, memory shard, spectral cloth.
+
+## Encounter Design
+Ambush predator for haunted interiors.
+
+## Regional Placement
+Primary in Crownspire sanctums; secondary in Veilreach ruins.
+
+## Lore Notes
+Most are civilians trapped after ritual failures during the shattering.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-tormented-soul"></a>
+# Tormented Soul
+
+## Creature Type
+Corruption Spirit
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Howling fragments of minds broken by plague and reactor pain.
+
+## Combat Style
+Erratic dashes with scream-based disruption.
+
+## Behavior
+Drawn to plague pits and breach scars.
+
+## Abilities
+Soul shriek, mind spike, despair wave.
+
+## Weaknesses
+Silence fields and cleansing rituals reduce frenzy.
+
+## Loot & Resources
+Soul residue, tainted essence, sorrow sigil.
+
+## Encounter Design
+Area-control enemy for horror encounters.
+
+## Regional Placement
+Primary in Veilreach plague vaults; rare in Mirefen blight pockets.
+
+## Lore Notes
+Their anguish destabilizes nearby reality tears.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-wraith"></a>
+# Wraith
+
+## Creature Type
+Apex Specter
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Crownspire Isle](islands.md#crownspire-isle)
+
+## Description
+Elite spectral hunters forged from executioners and inquisitors.
+
+## Combat Style
+Hit-and-fade assassination pattern.
+
+## Behavior
+Circles prey from darkness and attacks isolated targets.
+
+## Abilities
+Void scythe, shadow glide, terror mark.
+
+## Weaknesses
+Reveal effects and anti-shadow lanterns interrupt stealth.
+
+## Loot & Resources
+Wraith veil, cursed iron, echo crystal.
+
+## Encounter Design
+Elite stalker used in late-game ruins.
+
+## Regional Placement
+Primary in Veilreach breach corridors; secondary in Crownspire crypt wings.
+
+## Lore Notes
+Bound by necromancers to enforce silence across forbidden archives.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-necromancer"></a>
+# Necromancer
+
+## Creature Type
+Undead Commander
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Crownspire Isle](islands.md#crownspire-isle)
+
+## Description
+Ritualist warlords commanding dead legions through reactor-fed circles.
+
+## Combat Style
+Summoner-controller with layered curses.
+
+## Behavior
+Maintains distance while directing undead waves.
+
+## Abilities
+Raise dead, plague sigil, bone storm.
+
+## Weaknesses
+Burst windows open when ward totems are destroyed.
+
+## Loot & Resources
+Black grimoire pages, ritual focus, soul catalyst.
+
+## Encounter Design
+Dungeon boss and faction commander encounter.
+
+## Regional Placement
+Primary in Veilreach laboratories; secondary in Crownspire ritual courts.
+
+## Lore Notes
+Their experiments caused multiple undead outbreaks across the isles.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-corpse-walker"></a>
+# Corpse Walker
+
+## Creature Type
+Plague Undead
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Reanimated plague victims shambling through wet lowlands and trenches.
+
+## Combat Style
+Slow pressure with infection stacking.
+
+## Behavior
+Moves in clusters and ignores pain.
+
+## Abilities
+Infected swipe, bile burst, rot cloud.
+
+## Weaknesses
+Fire and purging tonics stop regeneration.
+
+## Loot & Resources
+Plague sacs, rotten cloth, infected marrow.
+
+## Encounter Design
+Attrition enemy for plague zones.
+
+## Regional Placement
+Primary in Veilreach quarantine pits; secondary in Mirefen marsh graves.
+
+## Lore Notes
+They spread fallout-born disease with every wound.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-plague-undead"></a>
+# Plague Undead
+
+## Creature Type
+Undead Plague Swarm
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Collective category of undead warped by magical epidemics.
+
+## Combat Style
+Mixed melee and disease projectiles.
+
+## Behavior
+Floods contaminated districts after nightfall.
+
+## Abilities
+Outbreak surge, contagion spit, rot aura.
+
+## Weaknesses
+Antiplague wards and frost control crowd movement.
+
+## Loot & Resources
+Plague ichor, quarantined relics, corrupted tissue.
+
+## Encounter Design
+Wave event enemy for outbreak scenarios.
+
+## Regional Placement
+Primary in Veilreach reactor districts; secondary in Mirefen blight routes.
+
+## Lore Notes
+Born from failed cure trials during the reactor wars.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-plague-lord"></a>
+# Plague Lord
+
+## Creature Type
+Plague Tyrant
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Monstrous ruler of diseased undead battalions.
+
+## Combat Style
+Boss-phase fight blending tank pressure and contagion control.
+
+## Behavior
+Commands minions while spreading lethal miasma.
+
+## Abilities
+Miasma crown, infection lance, plague nova.
+
+## Weaknesses
+Purification pylons and movement discipline prevent wipe states.
+
+## Loot & Resources
+Plague core, lordly regalia, biotoxin gland.
+
+## Encounter Design
+Late-game dungeon boss for outbreak strongholds.
+
+## Regional Placement
+Primary in Veilreach quarantine citadels.
+
+## Lore Notes
+A former war physician transformed by reactor pathogen saturation.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-undead-knight"></a>
+# Undead Knight
+
+## Creature Type
+Undead Cavalier
+
+## Threat Level
+High
+
+## Habitat Regions
+[Crownspire Isle](islands.md#crownspire-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Mounted revenant champions patrolling fallen royal roads.
+
+## Combat Style
+Charge-based burst with shield follow-up.
+
+## Behavior
+Guards ceremonial bridges and mausoleum gates.
+
+## Abilities
+Death charge, shield crush, spectral banner.
+
+## Weaknesses
+Trip effects and anti-mount traps break momentum.
+
+## Loot & Resources
+Knight crest, undead reins, cursed lance tip.
+
+## Encounter Design
+Elite guard encounter at fortress entrances.
+
+## Regional Placement
+Primary in Crownspire processional routes; secondary in Veilreach keeps.
+
+## Lore Notes
+They ride the same patrol route for centuries without rest.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-inquisitor"></a>
+# Inquisitor
+
+## Creature Type
+Corrupted Humanoid
+
+## Threat Level
+High
+
+## Habitat Regions
+[Crownspire Isle](islands.md#crownspire-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Fanatical witch-hunters now enforcing corrupted doctrine.
+
+## Combat Style
+Punishing duelist with anti-magic counters.
+
+## Behavior
+Targets casters first and controls line of sight.
+
+## Abilities
+Sanction strike, null brand, verdict chain.
+
+## Weaknesses
+Weapon disarm and mobility pressure break their stance.
+
+## Loot & Resources
+Seal scripts, judgment blade, sanctified ash.
+
+## Encounter Design
+Mini-boss human enemy for cathedral ruins.
+
+## Regional Placement
+Primary in Crownspire tribunal halls; secondary in Veilreach cult camps.
+
+## Lore Notes
+Once defenders of order, now agents of unstable zeal.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-spirit-demon"></a>
+# Spirit Demon
+
+## Creature Type
+Demonic Apparition
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Demon formed from bound spirits fused in rupture chambers.
+
+## Combat Style
+Ranged torment with soul-drain sustain.
+
+## Behavior
+Floats above terrain and attacks from behind lines.
+
+## Abilities
+Soul spear, possession pulse, infernal drain.
+
+## Weaknesses
+Spirit anchors and light sigils cut its sustain.
+
+## Loot & Resources
+Demon ember, bound soul knot, void dust.
+
+## Encounter Design
+Elite caster demon for breach arenas.
+
+## Regional Placement
+Primary in Veilreach dimensional labs.
+
+## Lore Notes
+A failed attempt to weaponize captured ghosts.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-red-demon"></a>
+# Red Demon
+
+## Creature Type
+Infernal Brute
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Blackreef Isle](islands.md#blackreef-isle)
+
+## Description
+Crimson war-demon bred for siege and terror.
+
+## Combat Style
+Heavy melee with fireburst follow-through.
+
+## Behavior
+Rushes weakest flank and fractures formations.
+
+## Abilities
+Infernal slam, ember roar, burning cleave.
+
+## Weaknesses
+Frost damage and spacing counter its short rage windows.
+
+## Loot & Resources
+Demon horn, infernal blood, charred plate.
+
+## Encounter Design
+Elite frontline demon in war camps.
+
+## Regional Placement
+Primary in Veilreach warzones; secondary in Blackreef smuggler forts.
+
+## Lore Notes
+Summoned during the final year of the reactor wars.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-big-demon"></a>
+# Big Demon
+
+## Creature Type
+Demonic Overlord
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Towering infernal commander leading breach battalions.
+
+## Combat Style
+Boss bruiser with arena-wide zone denial.
+
+## Behavior
+Cycles between enraged melee and summoning phases.
+
+## Abilities
+Hellquake, lava breath, legion call.
+
+## Weaknesses
+Interrupt windows appear when rune anchors are broken.
+
+## Loot & Resources
+Overlord core, magma heart, abyssal chain.
+
+## Encounter Design
+Dungeon boss for breach citadel finales.
+
+## Regional Placement
+Primary in Veilreach high-reactor sanctums.
+
+## Lore Notes
+Its arrival marked the collapse of several island garrisons.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-evil-god"></a>
+# Evil God
+
+## Creature Type
+Eldritch Entity
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Sunscar Isle](islands.md#sunscar-isle)
+
+## Description
+Dormant war-deity fragment awakened by ruin cults.
+
+## Combat Style
+Mythic encounter with reality-warp mechanics.
+
+## Behavior
+Manipulates battlefield geometry and summons avatars.
+
+## Abilities
+Void decree, relic eclipse, divine rupture.
+
+## Weaknesses
+Relic alignment puzzles expose vulnerable phases.
+
+## Loot & Resources
+Godshard, relic flame, fractured halo.
+
+## Encounter Design
+World-tier boss for raid-scale events.
+
+## Regional Placement
+Primary in Veilreach void shrines; rare events in Sunscar temples.
+
+## Lore Notes
+Its worship seeded both plague cults and reactor zealotry.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-slayer"></a>
+# Slayer
+
+## Creature Type
+Corruption Hunter
+
+## Threat Level
+High
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Augmented executioner engineered to kill both demons and mortals.
+
+## Combat Style
+Relentless pursuit duelist with gap closers.
+
+## Behavior
+Marks targets and refuses disengagement.
+
+## Abilities
+Hunter mark, chain pull, execution strike.
+
+## Weaknesses
+Kiting, roots, and disarm tools reduce kill pressure.
+
+## Loot & Resources
+Execution gauntlet, reinforced tendon, blood seal.
+
+## Encounter Design
+Elite roaming hunter for high-risk zones.
+
+## Regional Placement
+Primary in Veilreach purge sectors; secondary in Stoneclaw war camps.
+
+## Lore Notes
+Originally a reactor experiment meant to end the demon war quickly.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-mutant-guy"></a>
+# Mutant Guy
+
+## Creature Type
+Reactor Mutant
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Humanoid survivor grotesquely transformed by unstable reactor runoff.
+
+## Combat Style
+Unpredictable brawler with mutation phase shifts.
+
+## Behavior
+Alternates brute force, toxin spray, and leap ambush.
+
+## Abilities
+Mutation surge, acidic vomit, crushing grab.
+
+## Weaknesses
+Targeting exposed mutation nodes interrupts phase growth.
+
+## Loot & Resources
+Mutagen gland, unstable tissue, reactor catalyst.
+
+## Encounter Design
+Late-game boss for reactor spill caverns.
+
+## Regional Placement
+Primary in Veilreach runoff tunnels; rare in Mirefen contamination sinks.
+
+## Lore Notes
+Proof that reactor fallout still rewrites living biology.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-big-orc"></a>
+# Big Orc
+
+## Creature Type
+Orc Warband Leader
+
+## Threat Level
+High
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Massive orc champion commanding raid camps and mine seizures.
+
+## Combat Style
+Two-handed cleaver pressure with shout buffs.
+
+## Behavior
+Leads charges and protects banner carriers.
+
+## Abilities
+Crushing chop, war shout, shoulder ram.
+
+## Weaknesses
+Flank attacks and stamina drains punish long windups.
+
+## Loot & Resources
+War totem, orc plate, heavy tusk.
+
+## Encounter Design
+Elite warband captain encounter.
+
+## Regional Placement
+Primary in Stoneclaw canyon camps and quarry forts.
+
+## Lore Notes
+Big Orcs unite scattered clans during resource wars.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-male"></a>
+# Goblin Male
+
+## Creature Type
+Goblin Tribe Skirmisher
+
+## Threat Level
+Low
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Common goblin scout from frontier tribes.
+
+## Combat Style
+Fast melee pokes with retreat patterns.
+
+## Behavior
+Ambushes roads and snatches supplies.
+
+## Abilities
+Dagger jab, dirt toss, retreat sprint.
+
+## Weaknesses
+Low armor and panic when isolated.
+
+## Loot & Resources
+Scrap blade, stolen coin, cave herbs.
+
+## Encounter Design
+Standard hostiles in starter and frontier zones.
+
+## Regional Placement
+Primary in Stoneclaw caves; secondary in Aetherfall outskirts.
+
+## Lore Notes
+Represents one wing of mixed goblin clan populations.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-female"></a>
+# Goblin Female
+
+## Creature Type
+Goblin Tribe Scout
+
+## Threat Level
+Low
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Agile goblin trail-runner specializing in flanks.
+
+## Combat Style
+Ranged harassment with shortblade finishers.
+
+## Behavior
+Signals patrols and circles prey.
+
+## Abilities
+Sling shot, sidecut, warning call.
+
+## Weaknesses
+Silence and slows prevent regroup signals.
+
+## Loot & Resources
+Sling stones, scout wrap, scavenged trinkets.
+
+## Encounter Design
+Common skirmisher for cave and camp encounters.
+
+## Regional Placement
+Primary in Stoneclaw tunnel networks; secondary in Aetherfall river paths.
+
+## Lore Notes
+Clans rely on them to map safe smuggler routes.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-shaman"></a>
+# Goblin Shaman
+
+## Creature Type
+Goblin Caster
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Ritual caster channeling cave fungus smoke and stolen relic power.
+
+## Combat Style
+Support caster that buffs goblin packs.
+
+## Behavior
+Stays behind melee lines and summons totems.
+
+## Abilities
+Hex bolt, frenzy totem, smoke veil.
+
+## Weaknesses
+Totem destruction and interruption shut down control.
+
+## Loot & Resources
+Shaman staff, rune bones, cave spores.
+
+## Encounter Design
+Pack-support elite for goblin camps.
+
+## Regional Placement
+Primary in Stoneclaw ritual caverns and mine shrines.
+
+## Lore Notes
+Shamans broker uneasy truces between mine clans and raiders.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-warchief"></a>
+# Goblin Warchief
+
+## Creature Type
+Goblin Tribe Leader
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Strategist chief commanding multiple goblin tribes.
+
+## Combat Style
+Boss commander with wave reinforcements.
+
+## Behavior
+Rotates between direct combat and rally phases.
+
+## Abilities
+Command roar, spear rain, trap call.
+
+## Weaknesses
+Breaking war drums suppresses reinforcement waves.
+
+## Loot & Resources
+Chief crest, war map, tribal seal.
+
+## Encounter Design
+Camp boss for tribe strongholds.
+
+## Regional Placement
+Primary in Stoneclaw war caverns.
+
+## Lore Notes
+Several Warchiefs compete to control abandoned mine wealth.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-warrior-male"></a>
+# Goblin Warrior Male
+
+## Creature Type
+Goblin Frontline Fighter
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Shield-bearing goblin infantry trained for tunnel fights.
+
+## Combat Style
+Close-range pressure with guard stances.
+
+## Behavior
+Forms mini-lines in narrow passages.
+
+## Abilities
+Shield bash, spear thrust, guard call.
+
+## Weaknesses
+Guard breaks and knockbacks open them up.
+
+## Loot & Resources
+Goblin shield, iron spearhead, ration sacks.
+
+## Encounter Design
+Core frontline for goblin warband encounters.
+
+## Regional Placement
+Primary in Stoneclaw mine corridors; secondary in Aetherfall fort ruins.
+
+## Lore Notes
+Raised in clan militias built around mine defense.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-goblin-warrior-female"></a>
+# Goblin Warrior Female
+
+## Creature Type
+Goblin Frontline Fighter
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Veteran goblin fighter focused on fast coordinated strikes.
+
+## Combat Style
+Pair-fighting melee with shield and short spear.
+
+## Behavior
+Presses targets already pinned by scouts.
+
+## Abilities
+Twin thrust, shield feint, battle cry.
+
+## Weaknesses
+Spacing and stun windows disrupt combo chains.
+
+## Loot & Resources
+War paint, sharpened spear, clan token.
+
+## Encounter Design
+Core frontline with high pack synergy.
+
+## Regional Placement
+Primary in Stoneclaw raider camps; secondary in Aetherfall roads.
+
+## Lore Notes
+Serves as the backbone of goblin war patrols.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-ancient-queen"></a>
+# Ancient Queen
+
+## Creature Type
+Cursed Dynasty Sovereign
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Sunscar Isle](islands.md#sunscar-isle)
+
+## Description
+Mummified monarch awakened beneath relic pyramids.
+
+## Combat Style
+Boss fight with command auras and ritual hazards.
+
+## Behavior
+Summons honor guard while channeling tomb rites.
+
+## Abilities
+Royal decree, scarab storm, sand eclipse.
+
+## Weaknesses
+Disrupting relic obelisks removes immunity cycles.
+
+## Loot & Resources
+Dynasty crown, sunscar seal, embalmed silk.
+
+## Encounter Design
+Dungeon apex for royal tomb raids.
+
+## Regional Placement
+Primary in Sunscar buried palace complexes.
+
+## Lore Notes
+Her dynasty fell when forbidden resurrection rites were triggered.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-ancient-warrior"></a>
+# Ancient Warrior
+
+## Creature Type
+Ancient Tomb Infantry
+
+## Threat Level
+High
+
+## Habitat Regions
+[Sunscar Isle](islands.md#sunscar-isle)
+
+## Description
+Reawakened soldiers sworn to protect cursed dynastic halls.
+
+## Combat Style
+Disciplined spear-and-shield combat.
+
+## Behavior
+Defends processional chambers and relic gates.
+
+## Abilities
+Spear line, shield shove, sand burst.
+
+## Weaknesses
+Armor cracking and anti-undead wards reduce durability.
+
+## Loot & Resources
+Bronze spearhead, dynasty cloth, ritual resin.
+
+## Encounter Design
+Core elite in Sunscar temple interiors.
+
+## Regional Placement
+Primary in Sunscar tomb corridors and buried barracks.
+
+## Lore Notes
+They awaken whenever sacred seals are disturbed.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-mummy"></a>
+# Mummy
+
+## Creature Type
+Desert Undead
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Sunscar Isle](islands.md#sunscar-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Wrapped corpse animated by curse-script and relic oils.
+
+## Combat Style
+Slow grappling pressure with curse buildup.
+
+## Behavior
+Rises from sarcophagi and burial dunes.
+
+## Abilities
+Binding wrap, curse breath, sand crawl.
+
+## Weaknesses
+Fire and holy damage quickly degrade wraps.
+
+## Loot & Resources
+Linen strips, embalming salts, cursed amulet.
+
+## Encounter Design
+Standard undead for tomb and crypt exploration.
+
+## Regional Placement
+Primary in Sunscar tomb fields; rare in Mirefen flood crypts.
+
+## Lore Notes
+A failed embalming rite bound their spirits to eternal service.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-tomb-guardians"></a>
+# Tomb Guardians
+
+## Creature Type
+Relic Construct Sentinel
+
+## Threat Level
+High
+
+## Habitat Regions
+[Sunscar Isle](islands.md#sunscar-isle)
+
+## Description
+Animated guardian statues protecting buried relic vaults.
+
+## Combat Style
+Heavy sentinel combat with trap synergy.
+
+## Behavior
+Remains dormant until seals are breached.
+
+## Abilities
+Guardian slam, relic beam, ward dome.
+
+## Weaknesses
+Mobility and rear attacks bypass frontal armor.
+
+## Loot & Resources
+Guardian core, temple stone, relic lens.
+
+## Encounter Design
+Elite gatekeeper encounters for temple delves.
+
+## Regional Placement
+Primary in Sunscar relic temples and vault antechambers.
+
+## Lore Notes
+Built by priest-engineers to outlast dynasties.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-spirit-priests"></a>
+# Spirit Priests
+
+## Creature Type
+Ancient Ritual Caster
+
+## Threat Level
+High
+
+## Habitat Regions
+[Sunscar Isle](islands.md#sunscar-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Ritual adepts who channel ancestor spirits and cursed sun magic.
+
+## Combat Style
+Support caster with summon and debuff toolkit.
+
+## Behavior
+Keeps distance while chanting over relic circles.
+
+## Abilities
+Ancestor call, hex sand, blessing inversion.
+
+## Weaknesses
+Interruptions and silence effects collapse chant chains.
+
+## Loot & Resources
+Priest mask, ritual script, spirit incense.
+
+## Encounter Design
+Elite support for dynasty and cult encounters.
+
+## Regional Placement
+Primary in Sunscar tomb sanctums; secondary in Veilreach cult archives.
+
+## Lore Notes
+Some priest lineages were later absorbed by reactor cults.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-forest-witch"></a>
+# Forest Witch
+
+## Creature Type
+Nature Hex Caster
+
+## Threat Level
+High
+
+## Habitat Regions
+[Sylvanreach Isle](islands.md#sylvanreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Coven spellcasters binding roots, spores, and moonlit curses.
+
+## Combat Style
+Control caster with poison and snare loops.
+
+## Behavior
+Operates from hidden shrines and drowned groves.
+
+## Abilities
+Briar hex, spore cloud, raven bind.
+
+## Weaknesses
+Fire wards and dispels weaken layered hexes.
+
+## Loot & Resources
+Witch talisman, moon herb, cursed bark.
+
+## Encounter Design
+Elite caster for wilderness shrines.
+
+## Regional Placement
+Primary in Sylvanreach coven circles; secondary in Mirefen witch huts.
+
+## Lore Notes
+Their covens guard forbidden druid ruins from outsiders.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-forest-guardian"></a>
+# Forest Guardian
+
+## Creature Type
+Ancient Nature Sentinel
+
+## Threat Level
+Elite
+
+## Habitat Regions
+[Sylvanreach Isle](islands.md#sylvanreach-isle)
+
+## Description
+Towering protector spirit bound to old-growth sanctuaries.
+
+## Combat Style
+Slow heavy control with root lockdowns.
+
+## Behavior
+Awakens when sacred groves are threatened.
+
+## Abilities
+Root prison, bark slam, pollen roar.
+
+## Weaknesses
+Axe damage and fire windows crack bark armor.
+
+## Loot & Resources
+Living heartwood, guardian sap, spirit moss.
+
+## Encounter Design
+Elite guardian encounter for sacred grove events.
+
+## Regional Placement
+Primary in Sylvanreach elder groves.
+
+## Lore Notes
+Guardians predate modern kingdoms and remember older pacts.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-dark-elf"></a>
+# Dark Elf
+
+## Creature Type
+Rogue Humanoid Raider
+
+## Threat Level
+High
+
+## Habitat Regions
+[Sylvanreach Isle](islands.md#sylvanreach-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Exiled elven warbands practicing shadow warfare.
+
+## Combat Style
+Mobile hybrid combat with poison blades and arcane shots.
+
+## Behavior
+Strikes from cover and retreats to ruin outposts.
+
+## Abilities
+Shadowstep, venom bolt, moonblade arc.
+
+## Weaknesses
+Reveal skills and anti-poison kits counter ambushes.
+
+## Loot & Resources
+Dark silk, toxin vial, moonsteel shard.
+
+## Encounter Design
+Faction hostile for ruin and canyon patrol routes.
+
+## Regional Placement
+Primary in Sylvanreach ruins; secondary in Galestone cliff camps.
+
+## Lore Notes
+Their exile began after a schism over corruption rituals.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-spirit-creatures"></a>
+# Spirit Creatures
+
+## Creature Type
+Nature Spirits
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Sylvanreach Isle](islands.md#sylvanreach-isle), [Mirefen Isle](islands.md#mirefen-isle)
+
+## Description
+Elemental woodland spirits ranging from curious wisps to hostile revenants.
+
+## Combat Style
+Unpredictable skirmishers using magic bursts.
+
+## Behavior
+Shift temperament based on local corruption levels.
+
+## Abilities
+Wisp dart, soothing pulse, spirit flare.
+
+## Weaknesses
+Binding circles and calm totems prevent frenzy states.
+
+## Loot & Resources
+Spirit pollen, essence globes, luminous bark.
+
+## Encounter Design
+Dynamic encounter set for living ecosystem zones.
+
+## Regional Placement
+Primary in Sylvanreach glades; secondary in Mirefen spirit pools.
+
+## Lore Notes
+They are the forest’s immune system against corruption.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-mechanical-golem"></a>
+# Mechanical Golem
+
+## Creature Type
+Ancient War Machine
+
+## Threat Level
+Elite
+
+## Habitat Regions
+[Frostfang Isle](islands.md#frostfang-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Clockwork construct from lost fortress foundries.
+
+## Combat Style
+Predictable but punishing strike cycles.
+
+## Behavior
+Patrols old roads using ancient command loops.
+
+## Abilities
+Gear punch, piston charge, steam vent.
+
+## Weaknesses
+EMP runes and leg cripples stop charge patterns.
+
+## Loot & Resources
+Clockwork gear, reinforced plate, spark core.
+
+## Encounter Design
+Elite construct for fortress and ruins.
+
+## Regional Placement
+Primary in Frostfang bastions; secondary in Galestone battlements.
+
+## Lore Notes
+Originally built to guard trade forts through endless winters.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-elemental-golem"></a>
+# Elemental Golem
+
+## Creature Type
+Arcane Construct
+
+## Threat Level
+Elite
+
+## Habitat Regions
+[Frostfang Isle](islands.md#frostfang-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Rune-forged golem channeling bound elemental cores.
+
+## Combat Style
+Hybrid ranged and melee elemental bursts.
+
+## Behavior
+Swaps element mode with battlefield conditions.
+
+## Abilities
+Element shift, core blast, seismic slam.
+
+## Weaknesses
+Counter-element damage destabilizes core states.
+
+## Loot & Resources
+Elemental shard, rune stone, charged dust.
+
+## Encounter Design
+Elite encounter with adaptive mechanics.
+
+## Regional Placement
+Primary in Frostfang rune halls; secondary in Veilreach containment vaults.
+
+## Lore Notes
+Some were repurposed as reactor containment enforcers.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-fort-golem"></a>
+# Fort Golem
+
+## Creature Type
+Siege Construct
+
+## Threat Level
+High
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Massive wall-breaker construct used in ancient island sieges.
+
+## Combat Style
+Slow siege-pressure with AoE shockwaves.
+
+## Behavior
+Defends gates and smashes siege lines.
+
+## Abilities
+Bastion slam, rubble toss, fortress stance.
+
+## Weaknesses
+Rear weakpoint exposed after heavy attacks.
+
+## Loot & Resources
+Fortress bolts, rune mortar, core fragment.
+
+## Encounter Design
+Mini-boss construct for stronghold assaults.
+
+## Regional Placement
+Primary in Stoneclaw fortress ruins; secondary in Galestone citadels.
+
+## Lore Notes
+Dormant units awaken when old war drums are sounded.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-rock-golem"></a>
+# Rock Golem
+
+## Creature Type
+Stone Construct
+
+## Threat Level
+Elite
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Living boulder construct bound to quarry runes.
+
+## Combat Style
+Tank enemy with rolling disruption.
+
+## Behavior
+Blends with terrain before sudden activation.
+
+## Abilities
+Stone roll, seismic stomp, gravel burst.
+
+## Weaknesses
+Water and frost effects slow core recovery.
+
+## Loot & Resources
+Golem ore, runed stone, granite heart.
+
+## Encounter Design
+Elite defender for quarries and cliffs.
+
+## Regional Placement
+Primary in Stoneclaw quarries; secondary in Galestone cliff roads.
+
+## Lore Notes
+Quarry guilds once used them before control sigils were lost.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-barbarian-giant"></a>
+# Barbarian Giant
+
+## Creature Type
+Giant Kin Raider
+
+## Threat Level
+High
+
+## Habitat Regions
+[Frostfang Isle](islands.md#frostfang-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Nomadic giant warrior from ice and highland clans.
+
+## Combat Style
+Heavy melee with thrown debris pressure.
+
+## Behavior
+Raids supply caravans and mountain passes.
+
+## Abilities
+Boulder throw, war stomp, savage grab.
+
+## Weaknesses
+Leg snares and coordinated flanks neutralize reach.
+
+## Loot & Resources
+Giant bone, hide strip, frost charm.
+
+## Encounter Design
+Elite open-world threat for mountain routes.
+
+## Regional Placement
+Primary in Frostfang valleys; secondary in Galestone ridgelines.
+
+## Lore Notes
+Clans raid whenever tribute pacts fail.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-colossus"></a>
+# Colossus
+
+## Creature Type
+Ancient Titan Construct
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Frostfang Isle](islands.md#frostfang-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+City-sized sentinel buried beneath ruined strongholds.
+
+## Combat Style
+Raid boss with multi-stage armor break.
+
+## Behavior
+Activates only during large-scale relic disturbances.
+
+## Abilities
+Titan fist, beam lattice, collapse quake.
+
+## Weaknesses
+Sequential weakpoint destruction opens final core phase.
+
+## Loot & Resources
+Colossus core, titan plate, ancestral sigil.
+
+## Encounter Design
+Dungeon boss and world event centerpiece.
+
+## Regional Placement
+Primary in Frostfang titan ruins; secondary events in Galestone cliffs.
+
+## Lore Notes
+Legends claim colossi were built to fight dragons and gods.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-behemoth"></a>
+# Behemoth
+
+## Creature Type
+Primal Apex Beast
+
+## Threat Level
+Boss
+
+## Habitat Regions
+[Frostfang Isle](islands.md#frostfang-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Massive apex creature mutating between primal and corrupted states.
+
+## Combat Style
+World boss bruiser with devastation arcs.
+
+## Behavior
+Roams vast routes and attacks settlements.
+
+## Abilities
+Cataclysm charge, primal roar, corruption burst.
+
+## Weaknesses
+Coordinated siege tools and leg breaks are required.
+
+## Loot & Resources
+Behemoth hide, apex fang, reactor marrow.
+
+## Encounter Design
+World boss hunt target for coordinated groups.
+
+## Regional Placement
+Primary in Frostfang wilds; corrupted spawns in Veilreach wastelands.
+
+## Lore Notes
+Behemoths became unstable after exposure to reactor storms.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-apothecary"></a>
+# Apothecary
+
+## Creature Type
+Rogue Alchemical Humanoid
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Veilreach Isle](islands.md#veilreach-isle), [Crownspire Isle](islands.md#crownspire-isle)
+
+## Description
+Alchemist combatants selling toxins and unstable cures.
+
+## Combat Style
+Support-disruptor using flasks and fumes.
+
+## Behavior
+Fights from cover and empowers allied factions.
+
+## Abilities
+Acid flask, smoke bomb, mutagen aid.
+
+## Weaknesses
+Ranged focus and anti-alchemy shields counter throw loops.
+
+## Loot & Resources
+Vial rack, plague tonic, alchemy salts.
+
+## Encounter Design
+Humanoid specialist for faction skirmishes.
+
+## Regional Placement
+Primary in Veilreach plague markets; secondary in Crownspire back alleys.
+
+## Lore Notes
+Many profit from prolonging regional outbreaks.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-barbarian"></a>
+# Barbarian
+
+## Creature Type
+Frontier Mercenary
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Stoneclaw Isle](islands.md#stoneclaw-isle), [Frostfang Isle](islands.md#frostfang-isle)
+
+## Description
+Hardened mercenary fighters from frontier war camps.
+
+## Combat Style
+Aggressive melee with rage spikes.
+
+## Behavior
+Challenges intruders and protects caravan contracts.
+
+## Abilities
+Rage cleave, leap strike, intimidation roar.
+
+## Weaknesses
+Stamina drain and kite tactics blunt rage windows.
+
+## Loot & Resources
+Barbarian axe, hide harness, camp token.
+
+## Encounter Design
+Common humanoid hostile in frontier conflicts.
+
+## Regional Placement
+Primary in Stoneclaw camps; secondary in Frostfang outposts.
+
+## Lore Notes
+Barbarians switch loyalty based on resource and honor contracts.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-dwarf"></a>
+# Dwarf
+
+## Creature Type
+Fortress Defender
+
+## Threat Level
+Medium
+
+## Habitat Regions
+[Galestone Isle](islands.md#galestone-isle), [Stoneclaw Isle](islands.md#stoneclaw-isle)
+
+## Description
+Militant dwarf holdfast fighters guarding collapsed halls.
+
+## Combat Style
+Balanced melee-ranged with engineering support.
+
+## Behavior
+Forms disciplined squads around chokepoints.
+
+## Abilities
+Hammer strike, shield lock, powder shot.
+
+## Weaknesses
+Disrupting formation captains breaks squad cohesion.
+
+## Loot & Resources
+Forge plate, rune hammer, blackpowder kit.
+
+## Encounter Design
+Faction enemy or ally depending on standing.
+
+## Regional Placement
+Primary in Galestone holds; secondary in Stoneclaw mines.
+
+## Lore Notes
+Dwarven houses feud over rights to ancient machines.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-mystic"></a>
+# Mystic
+
+## Creature Type
+Arcane Faction Caster
+
+## Threat Level
+High
+
+## Habitat Regions
+[Galestone Isle](islands.md#galestone-isle), [Veilreach Isle](islands.md#veilreach-isle)
+
+## Description
+Wandering spell specialists studying relic anomalies.
+
+## Combat Style
+Mid-range caster with wards and burst runes.
+
+## Behavior
+Keeps distance and manipulates terrain with sigils.
+
+## Abilities
+Arc bolt, ward prism, gravity knot.
+
+## Weaknesses
+Silence, interrupts, and line pressure disrupt channeling.
+
+## Loot & Resources
+Focus crystal, rune parchment, ley dust.
+
+## Encounter Design
+Elite humanoid caster for ruins and cult labs.
+
+## Regional Placement
+Primary in Galestone observatories; secondary in Veilreach breach camps.
+
+## Lore Notes
+Some mystic circles helped build the first reactor arrays.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-knights"></a>
+# Knights
+
+## Creature Type
+Militant Humanoid Order
+
+## Threat Level
+High
+
+## Habitat Regions
+[Crownspire Isle](islands.md#crownspire-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Organized martial order splintered between loyalists and zealots.
+
+## Combat Style
+Shielded formation combat with command buffs.
+
+## Behavior
+Patrols keeps, roads, and relic checkpoints.
+
+## Abilities
+Lance rush, shield line, command banner.
+
+## Weaknesses
+Flanking and banner destruction collapse morale.
+
+## Loot & Resources
+Knight insignia, tempered steel, oath scroll.
+
+## Encounter Design
+Structured humanoid encounter for military ruins.
+
+## Regional Placement
+Primary in Crownspire military quarters; secondary in Galestone border forts.
+
+## Lore Notes
+The order fractured during succession wars after the shattering.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-fish"></a>
+# Fish
+
+## Creature Type
+Ambient Aquatic Wildlife
+
+## Threat Level
+Low
+
+## Habitat Regions
+[Blackreef Isle](islands.md#blackreef-isle), [Mirefen Isle](islands.md#mirefen-isle), [Aetherfall Isle](islands.md#aetherfall-isle)
+
+## Description
+Schooling fish populations that support local food webs and fishing economies.
+
+## Combat Style
+Non-hostile ambient wildlife.
+
+## Behavior
+Schools migrate with tides and weather.
+
+## Abilities
+Swarm turn, quick scatter, feeding frenzy.
+
+## Weaknesses
+Highly vulnerable to nets and predators.
+
+## Loot & Resources
+Raw fish, fish oil, scales.
+
+## Encounter Design
+Supports fishing loops, bait systems, and ambient life.
+
+## Regional Placement
+Primary in Blackreef shallows; secondary in Mirefen channels and Aetherfall coasts.
+
+## Lore Notes
+Harbor ledgers track fish migration as storm forecasts.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
+
+---
+
+<a id="creature-shark"></a>
+# Shark
+
+## Creature Type
+Marine Apex Predator
+
+## Threat Level
+High
+
+## Habitat Regions
+[Blackreef Isle](islands.md#blackreef-isle), [Mirefen Isle](islands.md#mirefen-isle), [Galestone Isle](islands.md#galestone-isle)
+
+## Description
+Large predatory shark species patrolling reefs and deep channels.
+
+## Combat Style
+Burst ambush predator in water encounters.
+
+## Behavior
+Circles wounded prey before committing strikes.
+
+## Abilities
+Breach bite, tail sweep, blood frenzy.
+
+## Weaknesses
+Shock traps and shallow-water lures reduce threat.
+
+## Loot & Resources
+Shark tooth, tough hide, liver oil.
+
+## Encounter Design
+Core danger for open-water travel and fishing risks.
+
+## Regional Placement
+Primary in Blackreef reefs; secondary in Mirefen estuaries and Galestone drop-offs.
+
+## Lore Notes
+Sailors read shark movement as omens of demon-tainted waters.
+
+### Variants
+- Elite
+- Corrupted
+- Ancient
+- Elemental
+- Armored
+- Venomous
+- Undead
+- Alpha
+- Diseased
+- Boss
 
 ---
