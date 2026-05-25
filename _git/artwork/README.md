@@ -2,6 +2,30 @@
 
 Centralized gallery for all synced Mystical Islands artwork.
 
+## Island Maps
+
+### Mainland
+
+![Mainland Player Map](./maps/mainland-player-map.png)
+
+[View Full Map](./maps/mainland-player-map.png) · [Download Terrain Heightmap](./heightmaps/mainland-heightmap.png)
+
+### Crownspire
+
+![Crownspire Player Map](./maps/crownspire-player-map.png)
+
+[View Full Map](./maps/crownspire-player-map.png) · [Download Terrain Heightmap](./heightmaps/crownspire-heightmap.png)
+
+## Terrain Heightmaps
+
+### Mainland
+
+![Mainland Heightmap](./heightmaps/mainland-heightmap.png)
+
+### Crownspire
+
+![Crownspire Heightmap](./heightmaps/crownspire-heightmap.png)
+
 ## Logos
 
 ![Mystical Islands Logo](./logos/logo.png)
