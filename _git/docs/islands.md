@@ -50,11 +50,11 @@ Crownspire (royal lane), Stoneclaw (trade), Blackreef (restricted permit route)
 
 #### Island Map
 
-![Mainland Player Map](../artwork/maps/mainland-player-map.png)
+![Aetherfall Player Map](../artwork/maps/aetherfall-player-map.png)
 
 ##### Downloads
-- [View Full Player Map](../artwork/maps/mainland-player-map.png)
-- [Download Terrain Heightmap](../artwork/heightmaps/mainland-heightmap.png)
+- [View Full Player Map](../artwork/maps/aetherfall-player-map.png)
+- [Download Terrain Heightmap](../artwork/heightmaps/aetherfall-heightmap.png)
 
 ### Crownspire Isle
 #### Theme
@@ -115,6 +115,10 @@ Mithril ore, gems, rare pelts, frost herbs
 Sleeping dragon awakening, mine collapse, forge relic hunt
 #### Harbor Connections
 Crownspire, Stoneclaw freight route, Veilreach expedition lock
+#### Map Identity
+Jagged mountain spine terrain with icy fjords and dramatic elevation changes.
+A southern cliff military dock anchors Khazdrin Hold, while a separate northern frozen fishing port serves Whitepass.
+Mining routes cut through snow valleys into dwarven deep-road entrances and isolated holdfast settlements.
 
 #### Island Map
 
@@ -149,6 +153,9 @@ Hardwood, arcane herbs, enchanted bark, ritual flowers
 Witch pact dispute, missing druid circle, forest ward collapse
 #### Harbor Connections
 Crownspire, Sunscar caravan route, hidden cove to Blackreef
+#### Map Identity
+Crescent woodland basin terrain with dense canopy, inland moonlit glades, and overgrown ruin clusters hidden off branching forest paths.
+Harbor access is intentionally minimal: one quiet western river pier and a concealed smugglers' cove beneath collapsed stone arches.
 
 #### Island Map
 
