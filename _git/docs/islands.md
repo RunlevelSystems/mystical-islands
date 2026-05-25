@@ -20,9 +20,27 @@ Travel routes are intentionally non-fully-connected to create progression, disco
 | Restricted military ports | Story-gated access and faction conflict |
 | Hidden docks | Exploration-based shortcuts and secrets |
 
+## Updated World Module List
+
+1. Aetherfall Isle
+2. Crownspire Isle
+3. Frostfang Isle
+4. Sylvanreach Isle
+5. Sunscar Isle
+6. Blackreef Isle
+7. Stoneclaw Isle
+8. Veilreach Isle
+9. Mirefen Isle
+10. Galestone Isle
+
 ## Core Island Modules
 
 ### Aetherfall Isle
+
+#### Island Map
+
+![Aetherfall Player Map](../artwork/maps/aetherfall-player-map.png)
+
 #### Theme
 Beginner mainland and social heart of early progression.
 #### Level Range
@@ -48,15 +66,16 @@ Missing patrols, contraband ring, crypt seal breach
 #### Harbor Connections
 Crownspire (royal lane), Stoneclaw (trade), Blackreef (restricted permit route)
 
-#### Island Map
-
-![Aetherfall Player Map](../artwork/maps/aetherfall-player-map.png)
-
 ##### Downloads
 - [View Full Player Map](../artwork/maps/aetherfall-player-map.png)
 - [Download Terrain Heightmap](../artwork/heightmaps/aetherfall-heightmap.png)
 
 ### Crownspire Isle
+
+#### Island Map
+
+![Crownspire Player Map](../artwork/maps/crownspire-player-map.png)
+
 #### Theme
 Capital fortress island and political center.
 #### Level Range
@@ -82,15 +101,16 @@ Succession intrigue, missing ward key, civil sabotage
 #### Harbor Connections
 Aetherfall, Frostfang military lane, Sylvanreach diplomatic lane
 
-#### Island Map
-
-![Crownspire Player Map](../artwork/maps/crownspire-player-map.png)
-
 ##### Downloads
 - [View Full Player Map](../artwork/maps/crownspire-player-map.png)
 - [Download Terrain Heightmap](../artwork/heightmaps/crownspire-heightmap.png)
 
 ### Frostfang Isle
+
+#### Island Map
+
+_Map asset pending assignment._
+
 #### Theme
 Frozen mountains, dwarven holds, dragon-haunted peaks.
 #### Level Range
@@ -115,20 +135,17 @@ Mithril ore, gems, rare pelts, frost herbs
 Sleeping dragon awakening, mine collapse, forge relic hunt
 #### Harbor Connections
 Crownspire, Stoneclaw freight route, Veilreach expedition lock
-#### Map Identity
-Jagged mountain spine terrain with icy fjords and dramatic elevation changes.
-A southern cliff military dock anchors Khazdrin Hold, while a separate northern frozen fishing port serves Whitepass.
-Mining routes cut through snow valleys into dwarven deep-road entrances and isolated holdfast settlements.
+
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
+### Sylvanreach Isle
 
 #### Island Map
 
-![Frostfang Player Map](../artwork/maps/frostfang-player-map.png)
+_Map asset pending assignment._
 
-##### Downloads
-- [View Full Player Map](../artwork/maps/frostfang-player-map.png)
-- [Download Terrain Heightmap](../artwork/heightmaps/frostfang-heightmap.png)
-
-### Sylvanreach Isle
 #### Theme
 Enchanted forest realm of elves, witches, and living ruins.
 #### Level Range
@@ -153,19 +170,17 @@ Hardwood, arcane herbs, enchanted bark, ritual flowers
 Witch pact dispute, missing druid circle, forest ward collapse
 #### Harbor Connections
 Crownspire, Sunscar caravan route, hidden cove to Blackreef
-#### Map Identity
-Crescent woodland basin terrain with dense canopy, inland moonlit glades, and overgrown ruin clusters hidden off branching forest paths.
-Harbor access is intentionally minimal: one quiet western river pier and a concealed smugglers' cove beneath collapsed stone arches.
+
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
+### Sunscar Isle
 
 #### Island Map
 
-![Sylvanreach Player Map](../artwork/maps/sylvanreach-player-map.png)
+_Map asset pending assignment._
 
-##### Downloads
-- [View Full Player Map](../artwork/maps/sylvanreach-player-map.png)
-- [Download Terrain Heightmap](../artwork/heightmaps/sylvanreach-heightmap.png)
-
-### Sunscar Isle
 #### Theme
 Desert island of pyramids, tombs, relic caravans, and curses.
 #### Level Range
@@ -191,7 +206,16 @@ Relic smuggling war, cursed tomb opening, lost caravan
 #### Harbor Connections
 Sylvanreach, Blackreef trade lane, restricted Crownspire customs
 
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
 ### Blackreef Isle
+
+#### Island Map
+
+_Map asset pending assignment._
+
 #### Theme
 Pirate stronghold, smuggler haven, and dangerous sea frontier.
 #### Level Range
@@ -217,7 +241,16 @@ Mutiny arc, smuggler alliance, sea monster contract
 #### Harbor Connections
 Aetherfall permit lane, Sunscar trade, Stoneclaw smuggler route, hidden dock to Veilreach
 
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
 ### Stoneclaw Isle
+
+#### Island Map
+
+_Map asset pending assignment._
+
 #### Theme
 Rocky caverns, monster mines, goblin/orc warbands.
 #### Level Range
@@ -243,7 +276,16 @@ Mine ownership conflict, goblin king emergence, lost engineer team
 #### Harbor Connections
 Aetherfall, Frostfang freight, Blackreef smuggler lane
 
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
 ### Veilreach Isle
+
+#### Island Map
+
+_Map asset pending assignment._
+
 #### Theme
 Late-game corrupted island with hidden access and ancient truth zones.
 #### Level Range
@@ -268,5 +310,79 @@ Unstable cores, ancient alloys, corruption essences
 Ward restoration, reactor shutdown, truth of Fracturing
 #### Harbor Connections
 Hidden route from Blackreef, expedition route from Frostfang, one-way emergency gate to Crownspire
+
+##### Downloads
+- View Full Player Map (pending)
+- Download Terrain Heightmap (pending)
+
+### Mirefen Isle
+
+#### Island Map
+
+![Mirefen Player Map](../artwork/maps/mirefen-player-map.png)
+
+#### Theme
+Swamp delta with marshlands, shallow water, cypress forests, elevated villages, flooded ruins, branching waterways, hidden boat routes, and foggy wetlands.
+#### Level Range
+TBD
+#### Main City
+TBD
+#### Villages & Settlements
+TBD
+#### Major Encounter Zones
+TBD
+#### Adventure Locations
+TBD
+#### Wilderness Encounters
+TBD
+#### Regional Monsters
+TBD
+#### Factions
+TBD
+#### Resources
+TBD
+#### Story Hooks
+TBD
+#### Harbor Connections
+TBD
+
+##### Downloads
+- [View Full Player Map](../artwork/maps/mirefen-player-map.png)
+- [Download Terrain Heightmap](../artwork/heightmaps/mirefen-heightmap.png)
+
+### Galestone Isle
+
+#### Island Map
+
+![Galestone Player Map](../artwork/maps/galestone-player-map.png)
+
+#### Theme
+Rocky coastal frontier with storm-beaten cliffs, offshore islands, fortress outposts, mining settlements, rough trade harbors, dangerous sea routes, hidden pirate coves, and elevated stone roads.
+#### Level Range
+TBD
+#### Main City
+TBD
+#### Villages & Settlements
+TBD
+#### Major Encounter Zones
+TBD
+#### Adventure Locations
+TBD
+#### Wilderness Encounters
+TBD
+#### Regional Monsters
+TBD
+#### Factions
+TBD
+#### Resources
+TBD
+#### Story Hooks
+TBD
+#### Harbor Connections
+TBD
+
+##### Downloads
+- [View Full Player Map](../artwork/maps/galestone-player-map.png)
+- [Download Terrain Heightmap](../artwork/heightmaps/galestone-heightmap.png)
 
 ---
