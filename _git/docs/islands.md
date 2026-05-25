@@ -116,6 +116,14 @@ Sleeping dragon awakening, mine collapse, forge relic hunt
 #### Harbor Connections
 Crownspire, Stoneclaw freight route, Veilreach expedition lock
 
+#### Island Map
+
+![Frostfang Player Map](../artwork/maps/frostfang-player-map.png)
+
+##### Downloads
+- [View Full Player Map](../artwork/maps/frostfang-player-map.png)
+- [Download Terrain Heightmap](../artwork/heightmaps/frostfang-heightmap.png)
+
 ### Sylvanreach Isle
 #### Theme
 Enchanted forest realm of elves, witches, and living ruins.
@@ -141,6 +149,14 @@ Hardwood, arcane herbs, enchanted bark, ritual flowers
 Witch pact dispute, missing druid circle, forest ward collapse
 #### Harbor Connections
 Crownspire, Sunscar caravan route, hidden cove to Blackreef
+
+#### Island Map
+
+![Sylvanreach Player Map](../artwork/maps/sylvanreach-player-map.png)
+
+##### Downloads
+- [View Full Player Map](../artwork/maps/sylvanreach-player-map.png)
+- [Download Terrain Heightmap](../artwork/heightmaps/sylvanreach-heightmap.png)
 
 ### Sunscar Isle
 #### Theme
