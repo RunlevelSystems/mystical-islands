@@ -116,7 +116,9 @@ Sleeping dragon awakening, mine collapse, forge relic hunt
 #### Harbor Connections
 Crownspire, Stoneclaw freight route, Veilreach expedition lock
 #### Map Identity
-Jagged mountain spine with icy fjords, a southern cliff military dock at Khazdrin Hold, and a separate northern frozen fishing port at Whitepass. Mining routes cut through snow valleys into dwarven deep-road entrances and isolated holdfast settlements.
+Jagged mountain spine terrain with icy fjords and dramatic elevation changes.
+A southern cliff military dock anchors Khazdrin Hold, while a separate northern frozen fishing port serves Whitepass.
+Mining routes cut through snow valleys into dwarven deep-road entrances and isolated holdfast settlements.
 
 #### Island Map
 
@@ -152,7 +154,8 @@ Witch pact dispute, missing druid circle, forest ward collapse
 #### Harbor Connections
 Crownspire, Sunscar caravan route, hidden cove to Blackreef
 #### Map Identity
-Crescent woodland basin with dense canopy, inland moonlit glades, and overgrown ruin clusters hidden off branching forest paths. Harbor access is minimal: one quiet western river pier and a concealed smugglers' cove beneath collapsed stone arches.
+Crescent woodland basin terrain with dense canopy, inland moonlit glades, and overgrown ruin clusters hidden off branching forest paths.
+Harbor access is intentionally minimal: one quiet western river pier and a concealed smugglers' cove beneath collapsed stone arches.
 
 #### Island Map
 
