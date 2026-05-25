@@ -16,17 +16,17 @@ Centralized gallery for all synced Mystical Islands artwork.
 
 [View Full Map](./maps/crownspire-player-map.png) · [Download Terrain Heightmap](./heightmaps/crownspire-heightmap.png)
 
-### Frostfang
+### Mirefen
 
-![Frostfang Player Map](./maps/frostfang-player-map.png)
+![Mirefen Player Map](./maps/mirefen-player-map.png)
 
-[View Full Map](./maps/frostfang-player-map.png) · [Download Terrain Heightmap](./heightmaps/frostfang-heightmap.png)
+[View Full Map](./maps/mirefen-player-map.png) · [Download Terrain Heightmap](./heightmaps/mirefen-heightmap.png)
 
-### Sylvanreach
+### Galestone
 
-![Sylvanreach Player Map](./maps/sylvanreach-player-map.png)
+![Galestone Player Map](./maps/galestone-player-map.png)
 
-[View Full Map](./maps/sylvanreach-player-map.png) · [Download Terrain Heightmap](./heightmaps/sylvanreach-heightmap.png)
+[View Full Map](./maps/galestone-player-map.png) · [Download Terrain Heightmap](./heightmaps/galestone-heightmap.png)
 
 ## Terrain Heightmaps
 
@@ -38,13 +38,13 @@ Centralized gallery for all synced Mystical Islands artwork.
 
 ![Crownspire Heightmap](./heightmaps/crownspire-heightmap.png)
 
-### Frostfang
+### Mirefen
 
-![Frostfang Heightmap](./heightmaps/frostfang-heightmap.png)
+![Mirefen Heightmap](./heightmaps/mirefen-heightmap.png)
 
-### Sylvanreach
+### Galestone
 
-![Sylvanreach Heightmap](./heightmaps/sylvanreach-heightmap.png)
+![Galestone Heightmap](./heightmaps/galestone-heightmap.png)
 
 ## Logos
 
