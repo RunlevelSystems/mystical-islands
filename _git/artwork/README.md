@@ -4,11 +4,11 @@ Centralized gallery for all synced Mystical Islands artwork.
 
 ## Island Maps
 
-### Mainland
+### Aetherfall
 
-![Mainland Player Map](./maps/mainland-player-map.png)
+![Aetherfall Player Map](./maps/aetherfall-player-map.png)
 
-[View Full Map](./maps/mainland-player-map.png) · [Download Terrain Heightmap](./heightmaps/mainland-heightmap.png)
+[View Full Map](./maps/aetherfall-player-map.png) · [Download Terrain Heightmap](./heightmaps/aetherfall-heightmap.png)
 
 ### Crownspire
 
@@ -16,15 +16,35 @@ Centralized gallery for all synced Mystical Islands artwork.
 
 [View Full Map](./maps/crownspire-player-map.png) · [Download Terrain Heightmap](./heightmaps/crownspire-heightmap.png)
 
+### Frostfang
+
+![Frostfang Player Map](./maps/frostfang-player-map.png)
+
+[View Full Map](./maps/frostfang-player-map.png) · [Download Terrain Heightmap](./heightmaps/frostfang-heightmap.png)
+
+### Sylvanreach
+
+![Sylvanreach Player Map](./maps/sylvanreach-player-map.png)
+
+[View Full Map](./maps/sylvanreach-player-map.png) · [Download Terrain Heightmap](./heightmaps/sylvanreach-heightmap.png)
+
 ## Terrain Heightmaps
 
-### Mainland
+### Aetherfall
 
-![Mainland Heightmap](./heightmaps/mainland-heightmap.png)
+![Aetherfall Heightmap](./heightmaps/aetherfall-heightmap.png)
 
 ### Crownspire
 
 ![Crownspire Heightmap](./heightmaps/crownspire-heightmap.png)
+
+### Frostfang
+
+![Frostfang Heightmap](./heightmaps/frostfang-heightmap.png)
+
+### Sylvanreach
+
+![Sylvanreach Heightmap](./heightmaps/sylvanreach-heightmap.png)
 
 ## Logos
 
