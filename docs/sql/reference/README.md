@@ -24,6 +24,8 @@ These reference docs are used by humans, GitHub Copilot, and ChatGPT.
 Future SQL inserts for Mystical Islands must target Atavism 10.13.
 
 - [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md)
+- [Atavism Wiki Index Reference](atavism-wiki-index-reference.md)
+- [AI Database and Server Reference](ai-database-and-server-reference.md)
 
 ---
 
@@ -59,3 +61,16 @@ Future SQL inserts for Mystical Islands must target Atavism 10.13.
 | [items-crafting-recipes-plugin.md](items-crafting-recipes-plugin.md) | Crafting Recipes | Crafting recipe headers, requirements, and outputs. |
 | [items-build-object-plugin.md](items-build-object-plugin.md) | Build Object | Build object templates and staged construction requirements. |
 | [items-socketing-plugin.md](items-socketing-plugin.md) | Socketing | Socket profile and gem/socket linking tables. |
+
+## Combat Module
+
+| File | Plugin | Description |
+|---|---|---|
+| [combat-arena-plugin.md](combat-arena-plugin.md) | Arena | Arena templates, teams, categories, rewards, and schedules. |
+| [combat-skills-plugin.md](combat-skills-plugin.md) | Skills | Skill definitions, prerequisites, skill profiles, and unlock mapping. |
+| [combat-abilities-plugin.md](combat-abilities-plugin.md) | Abilities | Ability configuration, targeting, costs, effects, combos, and triggers. |
+| [combat-effects-plugin.md](combat-effects-plugin.md) | Effects | Effect definitions, payload fields, and effect trigger actions. |
+| [combat-coordinated-effects-plugin.md](combat-coordinated-effects-plugin.md) | Coordinated Effects | Visual/audio coordinated effect mapping across combat systems. |
+| [combat-stats-plugin.md](combat-stats-plugin.md) | Stats | Stat definitions, links, profiles, and character/mob stat usage. |
+| [combat-damage-plugin.md](combat-damage-plugin.md) | Damage | Damage type to stat formula mapping and related combat dependencies. |
+| [combat-stat-thresholds.md](combat-stat-thresholds.md) | Stat Thresholds | Threshold scaling rules for stat functions. |
