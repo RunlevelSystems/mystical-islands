@@ -1,15 +1,14 @@
 # Global Events Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify table names, column names, IDs, foreign key relationships, option values, and Atavism version compatibility.
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/global-events/ was unavailable at time of writing. All information is derived from SQL schema files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Global Events Plugin provides two related but distinct systems:
@@ -22,8 +21,8 @@ Global events allow seasonal content (e.g. "Festival of Tides"), timed XP weeken
 - https://unity.wiki.atavismonline.com/project/global-events/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/schema/world_content.sql (empty schema)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/core/world_content.sql (empty schema)
 
 ## Tables Edited / Used
 
@@ -119,4 +118,6 @@ Global events support Mystical Islands' living world vision:
 - **In-game notification system**: Query active events at login
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.

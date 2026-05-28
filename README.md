@@ -50,7 +50,8 @@ If you want a sandbox fantasy MMORPG with campaign-book energy, ocean-crossing d
 - [Database Reference](docs/database-reference.md)
 - [Hints & Tips](docs/hints-and-tips.md)
 
-## 🗄 Atavism SQL Reference Library
+## 🗄 Atavism 10.13 SQL Reference Library
 - [SQL Reference Library](docs/sql/reference/README.md)
+- [Atavism 10.13 SQL Migration Notes](docs/sql/reference/atavism-10.13-migration-notes.md)
 
 This library documents how Atavism wiki systems map to the actual SQL schema and demo data, so developers and AI tools can later generate safe Mystical Islands SQL inserts.

@@ -1,15 +1,14 @@
 # Achievements Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify table names, column names, IDs, foreign key relationships, option values, and Atavism version compatibility.
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/achievements-plugin/ was unavailable at time of writing. All information is derived from SQL schema files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Achievements Plugin tracks player milestones and rewards. Achievements are organized into categories and subcategories. Each achievement has criteria (event + count threshold), optional stat bonuses, and optional bonus rewards. Player progress is tracked in the `achivement_data` table (note: typo in table name — missing 'e').
@@ -18,10 +17,10 @@ The Achievements Plugin tracks player milestones and rewards. Achievements are o
 - https://unity.wiki.atavismonline.com/project/achievements-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/admin.sql (demo data — admin database)
-- /docs/sql/schema/world_content.sql (empty schema)
-- /docs/sql/schema/admin.sql (empty schema)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/demo/admin.sql (demo data — admin database)
+- /docs/sql/10.13/core/world_content.sql (empty schema)
+- /docs/sql/10.13/core/admin.sql (empty schema)
 
 ## Tables Edited / Used
 
@@ -167,4 +166,6 @@ Achievements are core to Mystical Islands progression:
 - **Guild pages**: Aggregate guild achievement points
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.

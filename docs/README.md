@@ -29,13 +29,14 @@ This folder contains all project documentation for Mystical Islands.
 | [database-reference.md](database-reference.md) | Atavism damage plugin schema reference |
 | [hints-and-tips.md](hints-and-tips.md) | Developer notes and workflow tips |
 
-## SQL Reference Library
+## Atavism 10.13 SQL Reference Library
 
 | Path | Description |
 |---|---|
 | [sql/reference/README.md](sql/reference/README.md) | Atavism SQL Reference Library — full index of all plugin reference files |
+| [sql/reference/atavism-10.13-migration-notes.md](sql/reference/atavism-10.13-migration-notes.md) | Atavism 10.9 → 10.13 schema comparison and migration action checklist |
 
-SQL source files (demo data and schema) live in [sql/](sql/).
+SQL source files (core schema and demo data) live in [sql/10.13/](sql/10.13/).
 
 ## Artwork
 

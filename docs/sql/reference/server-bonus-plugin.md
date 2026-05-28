@@ -1,15 +1,14 @@
 # Bonus Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify table names, column names, IDs, foreign key relationships, option values, and Atavism version compatibility.
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/bonus-plugin/ was unavailable at time of writing. All information is derived from SQL schema files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Bonus Plugin defines reusable bonus types (`bonuses_settings`) that can be applied to characters at runtime via `bonuses`. Bonuses can be granted by achievements, VIP levels, global events, items, and other systems. Each bonus has a `code` (the stat or attribute it modifies), a flat `value`, and a percent `valuep`.
@@ -18,10 +17,10 @@ The Bonus Plugin defines reusable bonus types (`bonuses_settings`) that can be a
 - https://unity.wiki.atavismonline.com/project/bonus-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/master.sql (demo data — master database)
-- /docs/sql/schema/world_content.sql (empty schema)
-- /docs/sql/schema/master.sql (empty schema)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/demo/master.sql (demo data — master database)
+- /docs/sql/10.13/core/world_content.sql (empty schema)
+- /docs/sql/10.13/core/master.sql (empty schema)
 
 ## Tables Edited / Used
 
@@ -91,4 +90,6 @@ Bonuses will drive Mystical Islands progression rewards:
 - **VIP tier pages**: Show bonuses per VIP level
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.

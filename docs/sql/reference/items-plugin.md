@@ -1,20 +1,14 @@
 # Items Plugin
 
 ## AI Reference Notes
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
-
-Before generating SQL, always verify:
-- table names
-- column names
-- IDs
-- foreign key relationships
-- option values
-- Atavism version compatibility
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 
@@ -43,8 +37,8 @@ Items support:
 
 ## SQL Files Reviewed
 
-- `docs/sql/world_content.sql` — demo data (world_content database)
-- `docs/sql/schema/world_content.sql` — empty schema (world_content database)
+- `docs/sql/10.13/demo/world_content.sql` — demo data (world_content database)
+- `docs/sql/10.13/core/world_content.sql` — empty schema (world_content database)
 
 ## Tables Edited / Used
 
@@ -253,5 +247,7 @@ Item effects map to Atavism's stat system. Stats like `health-max`, `stamina`, `
 - **Player inventory viewer**: Player inventory references `item_templates.id` for display name, icon, tooltip
 
 ## Atavism 10.13 Upgrade Notes
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
 
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.
