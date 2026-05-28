@@ -1,6 +1,6 @@
 # Mystical Islands
 
-![Mystical Islands Logo](_git/artwork/logos/logo.png)
+![Mystical Islands Logo](Assets/_git/artwork/logos/logo.png)
 
 A fractured-seas MMORPG where every voyage is a gamble, every island is a campaign chapter, and every harbor rumor can become your next legend.
 
@@ -30,25 +30,25 @@ If you want a sandbox fantasy MMORPG with campaign-book energy, ocean-crossing d
 # 📚 Documentation
 
 ## 🌍 World
-- [World History](_git/docs/world-history.md)
-- [Islands](_git/docs/islands.md)
-- [Bestiary](_git/docs/bestiary.md)
+- [World History](docs/world-history.md)
+- [Islands](docs/islands.md)
+- [Bestiary](docs/bestiary.md)
 
 ## ⚔ Gameplay
-- [Player Characters](_git/docs/player-characters.md)
-- [Skills & Abilities](_git/docs/skills-and-abilities.md)
-- [Items](_git/docs/items.md)
-- [Merchants & Guilds](_git/docs/merchants-and-guilds.md)
-- [Building System](_git/docs/building-system.md)
-- [Gameplay Guide](_git/docs/gameplay-guide.md)
+- [Player Characters](docs/player-characters.md)
+- [Skills & Abilities](docs/skills-and-abilities.md)
+- [Items](docs/items.md)
+- [Merchants & Guilds](docs/merchants-and-guilds.md)
+- [Building System](docs/building-system.md)
+- [Gameplay Guide](docs/gameplay-guide.md)
 
 ## 🎨 Artwork
-- [Artwork Gallery](_git/artwork/README.md)
+- [Artwork Gallery](Assets/_git/artwork/README.md)
 
 ## 🚧 Development
-- [Development Roadmap](_git/docs/development-roadmap.md)
-- [Database Reference](_git/docs/database-reference.md)
-- [Hints & Tips](_git/docs/hints-and-tips.md)
+- [Development Roadmap](docs/development-roadmap.md)
+- [Database Reference](docs/database-reference.md)
+- [Hints & Tips](docs/hints-and-tips.md)
 
 ## 🗄 Atavism SQL Reference Library
 - [SQL Reference Library](docs/sql/reference/README.md)
