@@ -80,7 +80,7 @@ All `isactive` fields gate whether the row is loaded by the server: `1` = active
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `name` | varchar(45) NOT NULL | Unique identifier for the damage type. Used as a foreign key in `abilities.damageType` and `mob_templates.dmgType`. Examples: `crush`, `slash`, `pierce`, `magical`. |
+| `name` | varchar(45) NOT NULL | Unique identifier for the damage type. Matched by string value (not a formal SQL foreign key constraint) in `abilities.damageType` and `mob_templates.dmgType`. Examples: `crush`, `slash`, `pierce`, `magical`. |
 | `resistance_stat` | varchar(45) NOT NULL | Name of the `stat` row that reduces incoming damage of this type. The defending mob/player's value in this stat is subtracted from raw damage. Example: `crush_resistance`. |
 | `power_stat` | varchar(256) NOT NULL | Comma-separated list of `stat` names that scale outgoing damage. Higher values increase damage dealt. Example: `strength`. Multiple stats can contribute (e.g., `strength,weapon_damage`). |
 | `accuracy_stat` | varchar(256) NOT NULL | Stat(s) that determine hit chance. Compared against the target's `evasion_stat` to resolve whether the attack lands. Example: `dexterity`. |
@@ -109,7 +109,7 @@ VALUES ('fire', 'fire_resistance', 'intelligence', 'intelligence', 'magical_evas
 |--------|------|-------------|
 | `name` | varchar(45) NOT NULL | Unique stat identifier. Referenced by `damage_type`, `mob_stat`, `skill`, `effects`, and many other tables. Examples: `health`, `strength`, `crush_resistance`. |
 | `type` | int DEFAULT 0 | Stat category. `0` = regular stat (most stats); `1` = resistance/defensive stat. Informs how the Atavism Editor categorises it. |
-| `stat_function` | varchar(45) | Display label shown in the Atavism Editor and optionally in-game UI. Example: `'Attack Speed'`. Use `'~ none ~'` for stats that need no display label. |
+| `stat_function` | varchar(45) | Display label shown in the Atavism Editor and optionally in-game UI. This column is nullable; however, for consistency always provide a value: use `'~ none ~'` for stats that need no display label rather than leaving it NULL. Example: `'Attack Speed'`. |
 | `mob_base` | int | Base value assigned to this stat when a new mob is created. Scales with `mob_level_increase` and `mob_level_percent_increase`. |
 | `mob_level_increase` | int | Flat amount added to the stat per mob level. Example: a mob at level 5 with `mob_base=10` and `mob_level_increase=2` has a base value of 20. |
 | `mob_level_percent_increase` | float | Percent multiplier added per mob level on top of the flat increase. Use `0` if not needed. |
@@ -169,7 +169,7 @@ VALUES ('fire_resistance', 1, '~ none ~', 2, 1, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, '
 | Column | Type | Description |
 |--------|------|-------------|
 | `stat_function` | varchar(64) NOT NULL | The name of the stat function to which this threshold applies. Must match `stat.stat_function` for the relevant stat. |
-| `threshold` | int NOT NULL | The stat value at which this tier's curve begins. Thresholds are evaluated in ascending order. |
+| `threshold` | int NOT NULL | The stat value at which this tier's curve begins. The Atavism server evaluates tiers in ascending order by this value; the insertion order of rows does not matter, but if inserting multiple tiers for the same function, ascending order is a good convention. |
 | `num_per_point` | int NOT NULL | How many raw stat points are needed to gain 1 effective point at this threshold tier. Higher values = diminishing returns. |
 
 ---
@@ -256,7 +256,7 @@ VALUES ('fire_resistance', 1, '~ none ~', 2, 1, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, '
 | `autoRotateToTarget` | tinyint(1) DEFAULT 0 | `1` = the server automatically rotates the caster toward the target before firing. |
 | `relativePositionReq` | int DEFAULT 0 | Requires the caster to be in a specific position relative to the target. `0` = no requirement. Check Atavism editor for enum values (e.g., behind target). |
 | `targetType` | varchar(32) | Who can be targeted. Values: `Enemy`, `Friendly`, `Self`, `None`. |
-| `targetSubType` | varchar(64) NOT NULL DEFAULT '' | Narrows `targetType`. Example: `'player'`, `'mob'`, or empty string for any. |
+| `targetSubType` | varchar(64) NOT NULL DEFAULT '' | Narrows `targetType`. The column has a NOT NULL constraint with a default of `''` (empty string). An empty string means no sub-type filter (targets any sub-type). Example values: `'player'`, `'mob'`. |
 | `targetState` | int | Effect ID that must be active on the target. Acts as a targeting requirement. `NULL` = no state required. |
 | `casterState` | int NOT NULL DEFAULT 1 | Effect ID that must be active on the caster. `1` = base combat state (always available). |
 | `speciesTargetReq` | varchar(32) | Restricts the ability to targets of a specific species string (matches `mob_templates.species`). |
@@ -473,7 +473,7 @@ VALUES ('fire_resistance', 1, '~ none ~', 2, 1, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, '
 |--------|------|-------------|
 | `id` | int AUTO_INCREMENT | Profile identifier. Referenced by `abilities_triggers.trigger_id`. |
 | `name` | varchar(64) NOT NULL | Display name for the trigger profile. |
-| `event_type` | int NOT NULL | The combat event that fires this trigger. Values include: `1` = on hit (ability lands); other values may represent on-damage-taken, on-kill, on-heal, etc. Check the Atavism editor enum list for the full mapping. |
+| `event_type` | int NOT NULL | The combat event that fires this trigger. Known values in this project: `1` = on hit (ability lands on target). The Atavism editor exposes the full enum; other values typically include on-damage-received, on-kill, on-heal, on-death, and on-ability-miss. Consult the Atavism Editor trigger event dropdown for the complete list for version 10.9. |
 | `tags` | text NOT NULL | Space-separated tags. The trigger only fires if the ability/effect that caused the event has matching tags. Empty = fires on all events of this type. |
 | `race` | int NOT NULL DEFAULT -1 | Race ID restriction. `-1` = applies to all races. |
 | `class` | int NOT NULL DEFAULT -1 | Class ID restriction. `-1` = applies to all classes. |
@@ -542,7 +542,7 @@ VALUES ('fire_resistance', 1, '~ none ~', 2, 1, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, '
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `effectMainType` | varchar(64) | The primary category of the effect. Determines which game system processes it. Common values in this project: `Damage` (direct or DoT damage), `Restore` (healing), `Stat` (stat modification), `Stun`, `Sleep`, `Mount`, `Teleport`, `Spawn`, `Threat`, `Trap`, `Trigger`, `Teach Skill`, `ChangeClass`, `CreateItemFromLoot`. |
+| `effectMainType` | varchar(64) | The primary category of the effect. **This column is nullable but must be set for an effect to function** — a NULL or unrecognised value means the server has no handler and the effect does nothing. Common values in this project: `Damage` (direct or DoT damage), `Restore` (healing), `Stat` (stat modification), `Stun`, `Sleep`, `Mount`, `Teleport`, `Spawn`, `Threat`, `Trap`, `Trigger`, `Teach Skill`, `ChangeClass`, `CreateItemFromLoot`. |
 | `effectType` | varchar(64) | Sub-type within `effectMainType`. Maps to a specific C# handler class. Examples: `AttackEffect` (for Damage), `HealInstantEffect` (for Restore), `StatEffect` (for Stat), `StunEffect`, `SleepEffect`, `MountEffect`, `TeleportEffect`. |
 
 ### Skill Integration
@@ -588,7 +588,7 @@ VALUES ('fire_resistance', 1, '~ none ~', 2, 1, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, '
 
 ### Effect Values
 
-These generic value fields hold the parameters specific to `effectMainType`/`effectType`. Their meaning depends entirely on the effect type; the Atavism server reads these by position.
+These generic value fields hold the parameters specific to `effectMainType`/`effectType`. Their meaning depends entirely on the effect type; the Atavism server reads these by position. All `intValue` and `floatValue` columns have `NOT NULL DEFAULT 0`; all `stringValue` columns have `NOT NULL DEFAULT ''`; all `boolValue` columns have `NOT NULL DEFAULT 0`. None of these fields are nullable despite the abbreviated Type column below.
 
 | Column | Type | Default | Common Usage |
 |--------|------|---------|--------------|
@@ -854,7 +854,7 @@ The following conventions apply when generating SQL INSERT rows for this databas
 
 1. **Never include `creationtimestamp` or `updatetimestamp`** in INSERT statements. MySQL triggers manage these automatically.
 2. **`isactive = 1`** on all new rows unless intentionally creating a disabled entry.
-3. **`damage_type.name`** must match exactly (case-sensitive) wherever it is referenced (`abilities.damageType`, `mob_templates.dmgType`).
+3. **`damage_type.name`** is matched by string value (no SQL FK constraint). The database uses `utf8mb3_general_ci` collation, which is case-insensitive at the database level, but treat matches as case-sensitive at the application level to avoid subtle bugs when collation changes or when data is migrated.
 4. **Effect values (`intValue1-5`, `floatValue1-5`, `stringValue1-5`, `boolValue1-5`)** are positional and type-specific. Always check `effectMainType` and `effectType` before setting these.
 5. **Base64 `icon2` fields** must be set by the Atavism Editor or copied from an existing row. Do not attempt to generate them manually in SQL.
 6. **`activationEffect1-6` in abilities** store `effects.id` values (integers). `activationTarget1-6` store string target types (`Self`, `Target`, `Party`).
