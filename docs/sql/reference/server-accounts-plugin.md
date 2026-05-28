@@ -1,21 +1,14 @@
 # Accounts Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify:
-- table names
-- column names
-- IDs
-- foreign key relationships
-- option values
-- Atavism version compatibility
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/accounts-plugin/ was unavailable at the time of writing. All information below is derived from the SQL schema and demo data files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Accounts Plugin manages player login accounts, their linked characters, in-game currency balances, shop purchases, and per-account settings. Account data is split across two databases: `master` (source of truth for login, currency, purchases) and `admin` (runtime copy used by game servers). Both must be kept in sync.
@@ -24,10 +17,10 @@ The Accounts Plugin manages player login accounts, their linked characters, in-g
 - https://unity.wiki.atavismonline.com/project/accounts-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/master.sql (demo data — master database)
-- /docs/sql/admin.sql (demo data — admin database)
-- /docs/sql/schema/master.sql (empty schema — master database)
-- /docs/sql/schema/admin.sql (empty schema — admin database)
+- /docs/sql/10.13/demo/master.sql (demo data — master database)
+- /docs/sql/10.13/demo/admin.sql (demo data — admin database)
+- /docs/sql/10.13/core/master.sql (empty schema — master database)
+- /docs/sql/10.13/core/admin.sql (empty schema — admin database)
 
 ## Tables Edited / Used
 
@@ -161,4 +154,6 @@ WHERE ac.account_id = 42;
 - **Character management page**: List characters per account using `account_character`
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading. The split between master/admin account tables is a core Atavism architecture pattern unlikely to change.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts. The split between master/admin account tables is a core Atavism architecture pattern unlikely to change.

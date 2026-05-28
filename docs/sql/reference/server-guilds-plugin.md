@@ -1,15 +1,14 @@
 # Guilds Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify table names, column names, IDs, foreign key relationships, option values, and Atavism version compatibility.
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/guilds-plugin/ was unavailable at time of writing. All information is derived from SQL schema files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Guilds Plugin enables players to form persistent organizations. Guilds have a name, faction, message of the day, level, and a warehouse inventory OID. Members have ranks with configurable permissions. Guilds can level up by donating items, and each level unlocks more members, merchant access, and warehouse slots.
@@ -18,10 +17,10 @@ The Guilds Plugin enables players to form persistent organizations. Guilds have 
 - https://unity.wiki.atavismonline.com/project/guilds-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/admin.sql (demo data — admin database)
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/schema/admin.sql (empty schema)
-- /docs/sql/schema/world_content.sql (empty schema)
+- /docs/sql/10.13/demo/admin.sql (demo data — admin database)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/core/admin.sql (empty schema)
+- /docs/sql/10.13/core/world_content.sql (empty schema)
 
 ## Tables Edited / Used
 
@@ -140,4 +139,6 @@ Guilds will be central to Mystical Islands' faction-maritime culture:
 - **Alliance / rivalry maps**: Visualize guild faction affiliations
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.

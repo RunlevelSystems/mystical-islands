@@ -1,15 +1,14 @@
 # Player Character Setup Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify table names, column names, IDs, foreign key relationships, option values, and Atavism version compatibility.
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/player-character-setup-plugin/ was unavailable at time of writing. All information is derived from SQL schema files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Player Character Setup Plugin defines the character creation system. Each template maps a race + class (aspect) combination to a spawn instance, starting stats, starting items, starting skills, gender options, and respawn location. When a player creates a new character, the server reads this template to configure their new character.
@@ -18,8 +17,8 @@ The Player Character Setup Plugin defines the character creation system. Each te
 - https://unity.wiki.atavismonline.com/project/player-character-setup-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/schema/world_content.sql (empty schema)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/core/world_content.sql (empty schema)
 
 ## Tables Edited / Used
 
@@ -58,6 +57,7 @@ The Player Character Setup Plugin defines the character creation system. Each te
 | `character_create_template` | `sprint` | Sprint ability ID | FK → `abilities.id`; -1 = none | `abilities` |
 | `character_create_template` | `xpProfile` | XP profile to use | FK → `level_xp_requirements_templates.xpProfile` | `level_xp_requirements_templates` |
 | `character_create_template` | `dodge` | Dodge ability ID | FK → `abilities.id`; -1 = none | `abilities` |
+| `character_create_template` | `stat_profile_id` | Optional stat profile linkage | Added in 10.13 | `stat_profile` |
 
 ### character_create_items
 
@@ -87,6 +87,8 @@ The Player Character Setup Plugin defines the character creation system. Each te
 | `character_create_stats` | `value` | Base starting value | Integer | — |
 | `character_create_stats` | `levelIncrease` | Flat increase per level | Float | — |
 | `character_create_stats` | `levelPercentIncrease` | Percent increase per level | Float | — |
+| `character_create_stats` | `sendToClient` | Whether this stat is sent to clients | Added in 10.13 | — |
+| `character_create_stats` | `serverPresent` | Server-only presence/visibility control | Added in 10.13 | — |
 
 ### character_create_gender
 
@@ -131,6 +133,7 @@ The Player Character Setup Plugin defines the character creation system. Each te
 - `character_create_template.id` → all `character_create_*` child tables
 - `character_create_template.instance` → `instance_template.id`
 - `character_create_template.xpProfile` → `level_xp_requirements_templates.xpProfile`
+- `character_create_template.stat_profile_id` → `stat_profile.id` (10.13+)
 - `character_create_template.race/aspect` → `editor_option_choice` values
 - `character_create_items.item_id` → `item_templates.id`
 - `character_create_skills.skill` → `skills.id`
@@ -148,6 +151,7 @@ The Player Character Setup Plugin defines the character creation system. Each te
 7. Add `character_create_skills` rows
 8. Add `character_create_stats` rows (all stats the character needs at creation)
 9. Add `character_create_gender` rows
+10. For 10.13, verify `stat_profile_id`, `sendToClient`, and `serverPresent` behavior in editor before production inserts
 
 ## Example SQL Planning Notes
 ```sql
@@ -188,4 +192,6 @@ Demo data contains 6 character create templates (AUTO_INCREMENT=7 in schema) —
 - **Migration tools**: Validate character template completeness before live deployment
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts.

@@ -1,21 +1,14 @@
 # Game Settings Plugin
 
 ## AI Reference Notes
-This file is intended for:
-- human developers
-- GitHub Copilot
-- ChatGPT
-- future automated SQL generation
+This file is based on Atavism 10.13 SQL core/demo schema files and official Atavism wiki documentation.
 
-Before generating SQL, always verify:
-- table names
-- column names
-- IDs
-- foreign key relationships
-- option values
-- Atavism version compatibility
-
-> **Wiki Note:** The official wiki at https://unity.wiki.atavismonline.com/project/game-settings-plugin/ was unavailable at the time of writing. All information below is derived from the SQL schema and demo data files. Verify against the wiki before generating production SQL.
+Before generating SQL:
+- verify target database version is Atavism 10.13
+- verify IDs and option choices
+- verify foreign key-style relationships
+- verify whether demo rows are present or removed
+- verify whether the target database was created from core schema or demo schema
 
 ## Purpose
 The Game Settings Plugin stores global server-wide configuration values. Each row is a named key/value pair with a declared data type. The Atavism server reads these settings at startup and runtime to control game behavior including inventory limits, combat rules, death penalties, economy settings, and more.
@@ -26,8 +19,8 @@ This is a high-impact table — incorrect values can break core game systems. Ch
 - https://unity.wiki.atavismonline.com/project/game-settings-plugin/ (unavailable at time of writing)
 
 ## SQL Files Reviewed
-- /docs/sql/world_content.sql (demo data — world_content database)
-- /docs/sql/schema/world_content.sql (empty schema — world_content database)
+- /docs/sql/10.13/demo/world_content.sql (demo data — world_content database)
+- /docs/sql/10.13/core/world_content.sql (empty schema — world_content database)
 
 ## Tables Edited / Used
 
@@ -43,6 +36,9 @@ This is a high-impact table — incorrect values can break core game systems. Ch
 | `game_setting` | `name` | Setting key name | Max 101 chars. Uppercase with underscores. Example: `PLAYER_BAG_COUNT` | — |
 | `game_setting` | `datatype` | Declared type of `value` | Examples: `int`, `bool`, `float`, `string` | — |
 | `game_setting` | `value` | The setting value stored as a string | Always varchar regardless of `datatype` | — |
+| `game_setting` | `category` | Logical grouping used by editor/server UI | New in 10.13 core schema | — |
+| `game_setting` | `description` | Human-readable explanation of the setting | New in 10.13 core schema | — |
+| `game_setting` | `sendtoclient` | Whether this setting is sent to clients | New in 10.13 core schema; verify expected values in editor | — |
 | `game_setting` | `isactive` | Soft-delete / enable flag | 1 = active | — |
 | `game_setting` | `creationtimestamp` | Row creation time | Auto-set | — |
 | `game_setting` | `updatetimestamp` | Last update time | — | — |
@@ -68,6 +64,7 @@ This is a high-impact table — incorrect values can break core game systems. Ch
 2. For Mystical Islands customization: UPDATE existing rows to set correct values
 3. Always backup the table before bulk updates
 4. Verify that `datatype` matches the actual format of `value`
+5. For 10.13, verify `category`, `description`, and `sendtoclient` values when inserting custom rows
 
 ## Example SQL Planning Notes
 ```sql
@@ -99,4 +96,6 @@ Run `SELECT * FROM game_setting` on the demo database to audit the full list bef
 - **Server monitoring dashboards**: Display current game mode configuration
 
 ## Atavism 10.13 Upgrade Notes
-No major 10.13-specific differences were identified from this page. Recheck when upgrading. New settings may be added in 10.13 that do not exist in the 10.9 schema — do not delete unknown rows when upgrading.
+See [Atavism 10.13 SQL Migration Notes](atavism-10.13-migration-notes.md) for consolidated cross-module schema changes and insert impacts.
+
+Review migration notes and re-verify this module against the 10.13 SQL files before production inserts. New settings may be added in 10.13 that do not exist in the previous schema — do not delete unknown rows when upgrading.
