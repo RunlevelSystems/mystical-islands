@@ -1,76 +1,51 @@
-# Mystical Isles
+# Mystical Islands
 
-<p align="center">
-	<b>A fractured archipelago fantasy MMORPG of dragons, ruins, guild wars, and ocean-bound discovery.</b><br>
-	Sail between broken kingdoms, explore ancient cities beneath the waves, and carve your legend across a living world.
-</p>
+![Mystical Islands Logo](_git/artwork/logos/logo.png)
 
----
+A fractured-seas MMORPG where every voyage is a gamble, every island is a campaign chapter, and every harbor rumor can become your next legend.
 
-## 🌊 Welcome to the Isles
+## The Call of the Fractured Sea
 
-The world of Mystical Isles is a place of shattered coastlines, storm-dark seas, and islands that feel like entire kingdoms in miniature. Ancient ruins rise from jungles and snowfields. Dungeons sleep beneath city streets. Guild banners flutter over docks, keeps, and frontier camps. Dragons rule forgotten heights. Monsters prowl the wilds. Treasure waits in tombs, wrecks, marshes, and vaults.
+The old world shattered. Kingdoms became islands. Ancient roads sank beneath stormwater and ruins. What remains is a living archipelago of rival banners, haunted wilderness, dragon-haunted peaks, pirate waters, forgotten crypts, and ports where fortunes change overnight.
 
-This is a world built for adventure, faction conflict, naval travel, exploration, and player-driven stories.
+In Mystical Islands, you are not following a single corridor to victory. You are charting your own saga through dangerous routes, contested settlements, and mysteries older than the crowns that claim to rule them.
 
-Every voyage should feel like the start of a new chapter.
+## What Players Will Find
 
----
+- shattered island frontiers linked by magical harbor ships
+- exploration-driven progression with secrets on every coast
+- monsters from goblin warbands to dragons and sea horrors
+- ruins, crypts, coves, forts, and story-rich encounter zones
+- faction politics, guild ambitions, and merchant rivalries
+- player-built claims, settlements, and frontier strongholds
+- high-risk trade routes, smuggling lanes, and pirate conflict
+- a world that rewards curiosity, preparation, and daring
 
-## ⚔ What Awaits You
+## Why Sail Now
 
-- fractured islands and dangerous sea routes
-- ancient ruins hidden in forests, deserts, marshes, and mountains
-- kingdoms struggling for power and survival
-- guilds, merchants, and political factions competing for influence
-- monsters, undead, pirates, beasts, and Veil-touched horrors
-- dungeons beneath cities and forgotten facilities beneath the earth
-- naval exploration, salvage, and coastal discovery
-- treasure hunts, relic recovery, and world-spanning adventure
+Travel routes are not fully safe or fully known. Some islands are open trade hubs, others are military choke points, and some can only be reached through hidden docks and whispered agreements. The farther you go, the stranger and more dangerous the world becomes.
 
----
+If you want a sandbox fantasy MMORPG with campaign-book energy, ocean-crossing discovery, and long-term character identity, the Isles are waiting.
 
-## 🐉 Adventure, Mystery, and Glory
-
-The isles reward curiosity. A quiet cove may hide a wreck. A mountain pass may conceal a dragon lair. A market rumor may lead to a ruined vault beneath the capital. The farther you travel, the more the world opens into a mix of danger, politics, magic, and history.
-
-You are not just passing through this world.
-You are helping shape it.
-
----
-
-# 📚 World & Game Documentation
+# 📚 Documentation
 
 ## 🌍 World
-- [World History](docs/world-history.md)
-- [Islands](docs/islands.md)
-- [Bestiary](docs/bestiary.md)
+- [World History](_git/docs/world-history.md)
+- [Islands](_git/docs/islands.md)
+- [Bestiary](_git/docs/bestiary.md)
 
 ## ⚔ Gameplay
-- [Player Characters](docs/player-characters.md)
-- [Skills & Abilities](docs/skills-and-abilities.md)
-- [Items & Equipment](docs/items-and-equipment.md)
-- [Guilds & Merchants](docs/guilds-and-merchants.md)
+- [Player Characters](_git/docs/player-characters.md)
+- [Skills & Abilities](_git/docs/skills-and-abilities.md)
+- [Items](_git/docs/items.md)
+- [Merchants & Guilds](_git/docs/merchants-and-guilds.md)
+- [Building System](_git/docs/building-system.md)
+- [Gameplay Guide](_git/docs/gameplay-guide.md)
 
 ## 🎨 Artwork
-- [Artwork Folder](docs/artwork/README.md)
+- [Artwork Gallery](_git/artwork/README.md)
 
 ## 🚧 Development
-- [Design TODO List](docs/design-todo.md)
-
----
-
-## ✨ Quick Start Reading Order
-
-1. [World History](docs/world-history.md)
-2. [Islands](docs/islands.md)
-3. [Player Characters](docs/player-characters.md)
-4. [Skills & Abilities](docs/skills-and-abilities.md)
-5. [Items & Equipment](docs/items-and-equipment.md)
-6. [Guilds & Merchants](docs/guilds-and-merchants.md)
-7. [Bestiary](docs/bestiary.md)
-8. [Design TODO List](docs/design-todo.md)
-
----
-
-<p align="center">The sea is wide. The ruins are old. The world is waiting.</p>
+- [Development Roadmap](_git/docs/development-roadmap.md)
+- [Database Reference](_git/docs/database-reference.md)
+- [Hints & Tips](_git/docs/hints-and-tips.md)
