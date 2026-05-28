@@ -2,9 +2,9 @@
 
 Technical Atavism plugin and SQL reference for field meanings, plugin relationships, data dependencies, and automation-ready schema conventions.
 
-This is the primary future source for SQL insert generation, balancing workflows, NPC/item/merchant/quest generation, and AI-assisted content tooling.
+> Legacy note: this page is an archived Atavism 10.9-era reference. For current production planning, use `docs/sql/reference/` and Atavism 10.13 SQL under `docs/sql/10.13/core/` and `docs/sql/10.13/demo/`.
 
-This reference targets **Atavism 10.9** and is derived from the live `world_content` database schema in `docs/sql/world_content.sql`. It covers the Damage Plugin and all tables that participate in the combat damage pipeline.
+This reference targets **Atavism 10.9** and was derived from earlier `world_content` schema snapshots. It covers the Damage Plugin and related combat tables as historical context.
 
 ---
 
