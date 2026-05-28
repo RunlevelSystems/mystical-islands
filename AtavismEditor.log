@@ -108,3 +108,37 @@ DATE: 5/23/2026 7:46:20 PM : SELECT id, name FROM quests where isactive = 1
 DATE: 5/23/2026 7:46:21 PM : SELECT id, name FROM effects where isactive = 1
 DATE: 5/23/2026 7:46:26 PM : SELECT id FROM editor_option where optionType = 'Crafting Station' AND isactive = 1
 DATE: 5/23/2026 7:46:26 PM : SELECT optionTypeID, choice FROM editor_option_choice where optionTypeID = 7 AND isactive = 1
+DATE: 5/27/2026 7:10:15 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Race') AND isactive = 1
+DATE: 5/27/2026 7:10:17 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Class') AND isactive = 1
+DATE: 5/27/2026 7:10:17 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Gender') AND isactive = 1
+DATE: 5/27/2026 7:10:17 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:10:17 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:10:18 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Race') AND isactive = 1
+DATE: 5/27/2026 7:10:18 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Class') AND isactive = 1
+DATE: 5/27/2026 7:10:18 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Gender') AND isactive = 1
+DATE: 5/27/2026 7:10:18 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:10:18 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:11:37 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Race') AND isactive = 1
+DATE: 5/27/2026 7:11:38 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Class') AND isactive = 1
+DATE: 5/27/2026 7:11:38 AM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Gender') AND isactive = 1
+DATE: 5/27/2026 7:11:38 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:11:38 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 7:11:56 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:11:57 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:11:57 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:11:58 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:12:08 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:12:09 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:12:09 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 7:12:09 AM : SELECT id, name FROM item_templates where isactive = 1
+DATE: 5/27/2026 1:41:32 PM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Currency Group') AND isactive = 1
+DATE: 5/27/2026 1:41:34 PM : SELECT id FROM editor_option where optionType = 'Weapon Actions' AND isactive = 1
+DATE: 5/27/2026 1:41:35 PM : SELECT optionTypeID, choice FROM editor_option_choice where optionTypeID = 35 AND isactive = 1
+DATE: 5/27/2026 1:41:36 PM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 1:43:51 PM : SELECT id, choice FROM editor_option_choice where optionTypeID = (SELECT id from editor_option where optionType = 'Currency Group') AND isactive = 1
+DATE: 5/27/2026 1:43:52 PM : SELECT id FROM editor_option where optionType = 'Weapon Actions' AND isactive = 1
+DATE: 5/27/2026 1:43:52 PM : SELECT optionTypeID, choice FROM editor_option_choice where optionTypeID = 35 AND isactive = 1
+DATE: 5/27/2026 1:43:53 PM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 9:18:00 PM : SELECT name FROM item_slots where isactive = 1
+DATE: 5/27/2026 9:39:37 PM : SELECT id, name FROM resource_node_profile where isactive = 1
+DATE: 5/27/2026 9:39:37 PM : SELECT id, name FROM resource_node_profile where isactive = 1

@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_git/Terrain_Work.unity
+    guid: ee370b88d405cd945bebd06287430c58
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/Tutorial Work and Game Scenes/Huge_Mobile_Work_Scene.unity
+    guid: bfc140362db0bce4c98a5fe1c7ff6a7f
+  - enabled: 1
+    path: Assets/_git/Scenes/streaming_scene.unity
+    guid: 03ffe2940627004c693255f43b019426
+  - enabled: 1
     path: Assets/_git/Scenes/Login.unity
     guid: b9fb9c84d94d56b409f62d1869baea87
   - enabled: 1
