@@ -49,3 +49,8 @@ If you want a sandbox fantasy MMORPG with campaign-book energy, ocean-crossing d
 - [Development Roadmap](_git/docs/development-roadmap.md)
 - [Database Reference](_git/docs/database-reference.md)
 - [Hints & Tips](_git/docs/hints-and-tips.md)
+
+## 🗄 Atavism SQL Reference Library
+- [SQL Reference Library](docs/sql/reference/README.md)
+
+This library documents how Atavism wiki systems map to the actual SQL schema and demo data, so developers and AI tools can later generate safe Mystical Islands SQL inserts.
