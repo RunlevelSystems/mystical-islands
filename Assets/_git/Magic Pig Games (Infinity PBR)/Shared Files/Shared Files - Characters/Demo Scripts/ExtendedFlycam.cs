@@ -1,5 +1,7 @@
 using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
+#endif
 
 namespace InfinityPBR
 {
@@ -24,6 +26,7 @@ namespace InfinityPBR
         // ReSharper disable once UnusedMember.Local
         private void Update()
         {
+#if ENABLE_INPUT_SYSTEM
             var keyboard = Keyboard.current;
             var mouse    = Mouse.current;
 
@@ -55,14 +58,7 @@ namespace InfinityPBR
             if (keyboard.qKey.isPressed) upAxis = -0.5f;
             if (keyboard.eKey.isPressed) upAxis =  0.5f;
             transform.position += transform.up * NormalMoveSpeed * speedFactor * upAxis * Time.deltaTime;
-        }
-#if false // Legacy Input System — replaced above
-
-
-
-        // ReSharper disable once UnusedMember.Local
-        private void Update()
-        {
+#else
             if (Input.GetMouseButton(1)) // LEGACY - TO REMOVE
             {
                 _rotationX += Input.GetAxis("Mouse X") * CameraSensitivity * Time.deltaTime;
