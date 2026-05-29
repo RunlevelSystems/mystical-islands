@@ -1,4 +1,0 @@
-
-      float2 _AlphaData;
-      
-

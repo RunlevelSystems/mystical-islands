@@ -5,6 +5,14 @@ Assets/**
 !Assets/_git/
 !Assets/_git/**
 !Assets/_git/**/*.meta
+!Assets/Dragonsan/
+
+# Track Infinity PBR shared files
+!Assets/Magic Pig Games (Infinity PBR).meta
+!Assets/Magic Pig Games (Infinity PBR)/
+!Assets/Magic Pig Games (Infinity PBR)/Shared Files.meta
+!Assets/Magic Pig Games (Infinity PBR)/Shared Files/
+!Assets/Magic Pig Games (Infinity PBR)/Shared Files/**
 
 # Allow hidden .gitkeep file if needed
 !Assets/_git/.gitkeep

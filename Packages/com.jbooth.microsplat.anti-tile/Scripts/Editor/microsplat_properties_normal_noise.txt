@@ -1,4 +1,0 @@
-      // terrain
-      [NoScaleOffset]_NormalNoise("Normal Noise", 2D) = "bump" {}
-      _NormalNoiseScaleStrength("Normal Scale", Vector) = (8, 0.5, 0, 0)
-

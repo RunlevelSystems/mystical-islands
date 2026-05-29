@@ -1,5 +1,0 @@
-﻿      // distance resampling
-      // uv scale, near, fast
-      _ResampleDistanceParams("ResampleDistanceParams", Vector) = (0.25, 180, 500, 0)
-
-

@@ -4,18 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - SceneStreamer
+  - Mob
   - ScriptUpdater
   - Claim
   - ContextUI
   - Fire
   - ItemUI
+  - MiniMapWorldBoundary
   - NavMesh
-  - Mob
-  - PW - Prop
-  - PW - Building
-  - PW - Nature
-  - WorldMover
+  - Player
   layers:
   - Default
   - TransparentFX

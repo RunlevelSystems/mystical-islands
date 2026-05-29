@@ -1,136 +1,22 @@
 {
   "dependencies": {
-    "com.jbooth.microsplat.alpha-hole": {
-      "version": "file:com.jbooth.microsplat.alpha-hole",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.anti-tile": {
-      "version": "file:com.jbooth.microsplat.anti-tile",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.core": {
-      "version": "file:com.jbooth.microsplat.core",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "com.jbooth.microsplat.global-texture": {
-      "version": "file:com.jbooth.microsplat.global-texture",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.snow": {
-      "version": "file:com.jbooth.microsplat.snow",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.streams": {
-      "version": "file:com.jbooth.microsplat.streams",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.terrain-blending": {
-      "version": "file:com.jbooth.microsplat.terrain-blending",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.tessellation": {
-      "version": "file:com.jbooth.microsplat.tessellation",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.texture-clusters": {
-      "version": "file:com.jbooth.microsplat.texture-clusters",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.triplanar": {
-      "version": "file:com.jbooth.microsplat.triplanar",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.jbooth.microsplat.wind": {
-      "version": "file:com.jbooth.microsplat.wind",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.jbooth.microsplat.core": "3.9.0"
-      }
-    },
-    "com.unity.2d.sprite": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.2d.tilemap": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.tilemap": "1.0.0",
-        "com.unity.modules.uielements": "1.0.0"
-      }
-    },
-    "com.unity.ads": {
-      "version": "4.4.2",
+    "com.unity.addressables": {
+      "version": "1.29.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ai.navigation": {
-      "version": "1.1.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.ai": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.analytics": {
-      "version": "3.8.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.services.analytics": "1.0.4"
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "1.23.4",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.7.1",
+      "version": "2.12.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -145,7 +31,7 @@
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -166,7 +52,7 @@
     },
     "com.unity.ide.rider": {
       "version": "3.0.36",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -175,7 +61,7 @@
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.22",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
@@ -184,14 +70,7 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -204,47 +83,41 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.postprocessing": {
-      "version": "3.4.0",
+      "version": "3.5.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.physics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.purchasing": {
-      "version": "4.11.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.8.2",
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.services.analytics": {
-      "version": "6.0.3",
+    "com.unity.render-pipelines.core": {
+      "version": "14.0.12",
       "depth": 1,
-      "source": "registry",
+      "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.12.4",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
-    "com.unity.services.core": {
-      "version": "1.14.0",
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.23.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.modules.unitywebrequest": "1.0.0"
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.assetbundle": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.searcher": {
+      "version": "4.9.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
@@ -253,6 +126,15 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "14.0.12",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.searcher": "4.9.2"
+      }
     },
     "com.unity.sysroot": {
       "version": "2.0.10",
@@ -272,7 +154,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6",
@@ -338,16 +220,6 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.12",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

@@ -1,0 +1,4 @@
+com.unity.textmeshpro@3.0.9
+com.unity.addressables@1.29.0
+com.unity.shadergraph@14.0.12
+com.unity.postprocessing@3.5.4

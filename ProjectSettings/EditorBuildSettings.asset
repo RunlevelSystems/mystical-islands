@@ -6,39 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_git/Terrain_Work.unity
-    guid: ee370b88d405cd945bebd06287430c58
+    path: Assets/Dragonsan/Scenes/UI Toolkit/Login.unity
+    guid: 0105d9fde98019947a448b6f9e3b9cdf
   - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Tutorial Work and Game Scenes/Huge_Mobile_Work_Scene.unity
-    guid: bfc140362db0bce4c98a5fe1c7ff6a7f
+    path: Assets/Dragonsan/Scenes/UI Toolkit/CharacterSelection.unity
+    guid: 675fc3f366867634d8be7ea23f5d6ae7
   - enabled: 1
-    path: Assets/_git/Scenes/streaming_scene.unity
-    guid: 03ffe2940627004c693255f43b019426
-  - enabled: 1
-    path: Assets/_git/Scenes/Login.unity
-    guid: b9fb9c84d94d56b409f62d1869baea87
-  - enabled: 1
-    path: Assets/_git/Scenes/CharacterSelection.unity
-    guid: 538e6478bc10bd04e81232f1c205ac58
-  - enabled: 1
-    path: Assets/_git/Scenes/MainWorld.unity
+    path: Assets/Dragonsan/Scenes/MainWorld.unity
     guid: be79b072dba2d0f46822380827159b05
-  - enabled: 1
-    path: Assets/_git/Scenes/Arena1v1.unity
-    guid: 4889f9d72f272ff4db6943cc07de877e
-  - enabled: 1
-    path: Assets/_git/Scenes/Arena2v2.unity
-    guid: 1b4979f05fc03684da2f081defbbeeea
-  - enabled: 1
-    path: Assets/_git/Scenes/Deathmatch 1v1.unity
-    guid: 54d620998e534444cbe2d700deac56de
-  - enabled: 1
-    path: Assets/_git/Scenes/Deathmatch 2v2.unity
-    guid: ea0560f26e4c35d468536d0b840366de
-  - enabled: 1
-    path: Assets/_git/Scenes/SinglePlayerPrivate.unity
-    guid: b85c7c8b10292e745a8107145f39608c
-  - enabled: 1
-    path: Assets/_git/Scenes/GuildPrivate.unity
-    guid: 28a3a0678bddd854393508a9bda81c85
   m_configObjects: {}

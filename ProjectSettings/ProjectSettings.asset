@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: c84cc97d8199040c3ace16b435a77b8b
+  productGUID: 366b9cbdb90810363823db3ebaa27441
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: RPG
+  productName: Mystical-Islands
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -162,8 +162,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.RPG
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -841,20 +840,21 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ENVIRO_LW;ENVIRO_HD;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2
-    EmbeddedLinux: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    GameCoreXboxOne: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    Nintendo Switch: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    PS4: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    PS5: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    QNX: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    Stadia: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    Standalone: ENVIRO_LW;WORLDAPI_PRESENT;ENVIRO_HD;CROSS_PLATFORM_INPUT;GENA_PRO;GAIA_2_PRESENT;GAIA_MESH_PRESENT;UNITY_POST_PROCESSING_STACK_V2;AT_STREAMER2;__MICROSPLAT__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_STREAMS__;__MICROSPLAT_WINDGLITTER__;__MICROSPLAT_SNOW__;__MICROSPLAT_ALPHAHOLE__
-    VisionOS: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    WebGL: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
-    XboxOne: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
+    Android: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    PS4: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    PS5: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    QNX: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    Stadia: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    Standalone: UNITY_POST_PROCESSING_STACK_V2;AT_ADDRESSABLES;AT_PPS2_PRESET;ENVIRO_LW;ENVIRO_HD;PW_ADDRESSABLES;CROSS_PLATFORM_INPUT;GAIA_2_PRESENT;GAIA_MESH_PRESENT;GENA_PRO
+    VisionOS: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    WebGL: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
+    Windows Store Apps: MOBILE_INPUT
+    XboxOne: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    tvOS: ENVIRO_LW;ENVIRO_HD;UNITY_POST_PROCESSING_STACK_V2
+    tvOS: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_LW;ENVIRO_HD
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -886,14 +886,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: RPG
+  metroPackageName: Mystical-Islands
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: RPG
+  metroApplicationDescription: Mystical-Islands
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -963,11 +963,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: b7755cd0-1db1-4fb7-bde0-ae36dca443a2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Mystical-Islands
+  organizationId: iaretechnician
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
